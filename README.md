@@ -2,6 +2,24 @@
 
 A Model Context Protocol (MCP) server that provides access to PopHIVE (Population Health Information Visual Explorer) public health data from Yale School of Public Health. This server exposes comprehensive health surveillance data including immunizations, respiratory diseases, and chronic diseases through standardized MCP tools, resources, and prompts.
 
+**🎯 Production-Ready**: All critical bugs fixed, enhanced error handling, and comprehensive dataset metadata included.
+
+**📦 Desktop Extension Ready**: Fully compliant with Anthropic's Desktop Extension (DXT) specification for one-click installation in Claude Desktop and other MCP-enabled applications.
+
+## Recent Improvements
+
+### ✅ Critical Bug Fixes (v1.0.0)
+- **Fixed Geography Filter Bug**: The "national" geography filter now works correctly and returns proper results
+- **Enhanced Search Algorithm**: Search now includes both field names and values for comprehensive matching
+- **Improved Error Handling**: Added descriptive error messages with specific suggestions when searches return no results
+- **Enhanced Dataset Metadata**: Added geographic granularity, date ranges, key metrics, and data quality indicators
+
+### 🔧 Technical Improvements
+- **Better Geography Handling**: Supports "national", "US", and state-level filtering with proper normalization
+- **Comprehensive Error Messages**: Context-aware suggestions based on search terms and geography filters
+- **Dataset Capability Documentation**: Clear indication of which datasets support state vs national analysis
+- **Production-Ready Error Handling**: Graceful handling of edge cases with helpful user guidance
+
 ## Overview
 
 PopHIVE aggregates near real-time health data from multiple authoritative sources:
@@ -38,11 +56,26 @@ PopHIVE aggregates near real-time health data from multiple authoritative source
 
 ## Installation
 
-### Prerequisites
+### Option 1: Desktop Extension (Recommended)
+
+**For Claude Desktop users:**
+1. Download the `.dxt` file from the releases page
+2. Double-click the file to open with Claude Desktop
+3. Click "Install" in the installation dialog
+4. Configure any required settings (update frequency, cache size)
+5. The extension will be automatically available in Claude Desktop
+
+**For other MCP-enabled applications:**
+- Use the same `.dxt` file with any application supporting Desktop Extensions
+- Follow your application's extension installation process
+
+### Option 2: Manual Installation
+
+**Prerequisites:**
 - Node.js 18+ 
 - npm or yarn
 
-### Setup
+**Setup:**
 
 1. **Clone and install dependencies:**
 ```bash
@@ -67,6 +100,29 @@ npm test
 ```bash
 npm start
 ```
+
+### Option 3: Build Your Own Extension
+
+**Create a Desktop Extension from source:**
+
+1. **Install DXT CLI tools:**
+```bash
+npm install -g @anthropic-ai/dxt
+```
+
+2. **Clone and prepare:**
+```bash
+git clone <repository-url>
+cd pophive-mcp-server
+npm install
+```
+
+3. **Package as extension:**
+```bash
+dxt pack
+```
+
+4. **Install the generated `.dxt` file** in Claude Desktop or other MCP applications
 
 ## Configuration
 
