@@ -1,0 +1,106 @@
+{
+  "dxt_version": "0.1",
+  "name": "pophive-mcp-server",
+  "display_name": "PopHIVE Public Health Data",
+  "version": "1.0.0",
+  "description": "Access near real-time public health data from PopHIVE dashboards including immunizations, respiratory diseases, and chronic conditions",
+  "long_description": "Provides comprehensive access to PopHIVE's public health datasets from Yale School of Public Health. Includes childhood immunization data from CDC NIS and Epic Cosmos, respiratory disease surveillance from multiple CDC systems, wastewater monitoring, Google Health Trends, and chronic disease prevalence data. Perfect for epidemiologists, public health researchers, policy makers, and anyone analyzing population health trends.",
+  "author": {
+    "name": "PopHIVE MCP Server",
+    "email": "support@example.com",
+    "url": "https://www.pophive.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cicatriiz/pophive-mcp-server"
+  },
+  "homepage": "https://www.pophive.org",
+  "documentation": "https://github.com/Cicatriiz/pophive-mcp-server#readme",
+  "icon": "icon.png",
+  "server": {
+    "type": "node",
+    "entry_point": "server/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": ["${__dirname}/server/index.js"],
+      "env": {
+        "DATA_CACHE_DIR": "${__dirname}/data",
+        "UPDATE_FREQUENCY": "${user_config.update_frequency}",
+        "NODE_ENV": "production"
+      }
+    }
+  },
+  "tools": [
+    {
+      "name": "filter_data",
+      "description": "Filter PopHIVE datasets by state, date range, age group, or other criteria"
+    },
+    {
+      "name": "compare_states",
+      "description": "Compare health metrics across multiple states"
+    },
+    {
+      "name": "time_series_analysis",
+      "description": "Analyze trends over time for specific health metrics"
+    },
+    {
+      "name": "get_available_datasets",
+      "description": "List all available PopHIVE datasets and their metadata"
+    },
+    {
+      "name": "search_health_data",
+      "description": "Search across all datasets for specific health conditions or metrics"
+    }
+  ],
+  "prompts": [
+    {
+      "name": "immunization_gaps",
+      "description": "Analyze vaccination coverage gaps by demographic factors",
+      "arguments": ["state", "vaccine_type", "demographic_focus"]
+    },
+    {
+      "name": "respiratory_surge_detection",
+      "description": "Identify respiratory disease surges in specific regions",
+      "arguments": ["region", "virus_type", "time_period"]
+    },
+    {
+      "name": "chronic_disease_trends",
+      "description": "Analyze obesity/diabetes trends and correlations",
+      "arguments": ["condition", "demographic_focus", "comparison_states"]
+    },
+    {
+      "name": "multi_source_analysis",
+      "description": "Compare data across multiple sources for comprehensive health insights",
+      "arguments": ["health_topic", "geographic_focus", "time_range"]
+    }
+  ],
+  "tools_generated": true,
+  "keywords": ["public-health", "epidemiology", "cdc", "immunizations", "respiratory", "chronic-disease", "surveillance", "yale", "epic-cosmos"],
+  "license": "MIT",
+  "compatibility": {
+    "claude_desktop": ">=1.0.0",
+    "platforms": ["darwin", "win32", "linux"],
+    "runtimes": {
+      "node": ">=16.0.0"
+    }
+  },
+  "user_config": {
+    "update_frequency": {
+      "type": "string",
+      "title": "Data Update Frequency",
+      "description": "How often to refresh data from PopHIVE (affects performance vs freshness)",
+      "default": "daily",
+      "enum": ["hourly", "daily", "weekly"],
+      "required": false
+    },
+    "cache_size_mb": {
+      "type": "number",
+      "title": "Cache Size (MB)",
+      "description": "Maximum size for local data cache",
+      "default": 100,
+      "min": 50,
+      "max": 500,
+      "required": false
+    }
+  }
+}

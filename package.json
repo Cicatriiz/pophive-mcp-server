@@ -1,0 +1,32 @@
+{
+  "name": "pophive-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for PopHIVE public health data - Access near real-time health data from Yale's PopHIVE platform",
+  "type": "module",
+  "main": "server/index.js",
+  "keywords": ["public-health", "epidemiology", "cdc", "immunizations", "respiratory", "chronic-disease", "mcp", "claude"],
+  "author": {
+    "name": "PopHIVE MCP Server",
+    "email": "support@example.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0",
+    "csv-parser": "^3.0.0",
+    "date-fns": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "npm install --production",
+    "test": "node server/index.js --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cicatriiz/pophive-mcp-server"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
