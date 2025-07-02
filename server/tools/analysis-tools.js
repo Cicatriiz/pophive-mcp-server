@@ -141,12 +141,8 @@ export class AnalysisTools {
       let data = await this.dataLoader.loadDataset(dataset);
       
       // Filter by geography if specified
-      if (geography && geography.toLowerCase() !== 'national') {
-        const normalizedGeo = this.dataLoader.normalizeStateName(geography);
-        data = data.filter(row => {
-          const rowGeo = this.dataLoader.normalizeStateName(row.geography || row.state || '');
-          return rowGeo === normalizedGeo;
-        });
+      if (geography) {
+        data = this.handleGeographyFilter(geography, data);
       }
 
       // Filter by date range
@@ -218,20 +214,19 @@ export class AnalysisTools {
           
           // Filter by geography if specified
           if (geography) {
-            const normalizedGeo = this.dataLoader.normalizeStateName(geography);
-            data = data.filter(row => {
-              const rowGeo = this.dataLoader.normalizeStateName(row.geography || row.state || '');
-              return rowGeo === normalizedGeo;
-            });
+            data = this.handleGeographyFilter(geography, data);
           }
 
           // Search through data
           const matches = data.filter(row => {
-            const searchableText = Object.values(row)
-              .join(' ')
-              .toLowerCase();
+            // Create searchable text from both keys and values
+            const searchableText = [
+              ...Object.keys(row),
+              ...Object.values(row)
+            ].join(' ').toLowerCase();
             
-            return searchTerms.some(term => searchableText.includes(term));
+            const hasMatch = searchTerms.some(term => searchableText.includes(term));
+            return hasMatch;
           });
 
           if (matches.length > 0) {
@@ -260,6 +255,28 @@ export class AnalysisTools {
   }
 
   // Helper methods for data processing and formatting
+
+  handleGeographyFilter(geography, data) {
+    if (!geography) return data;
+    
+    // Handle "national" special case
+    const geoLower = geography.toLowerCase().trim();
+    if (geoLower === 'national' || geoLower === 'us' || geoLower === 'united states') {
+      return data.filter(row => {
+        const rowGeo = (row.geography || row.state || '').toLowerCase();
+        return rowGeo === 'us' || 
+               rowGeo === 'united states' || 
+               rowGeo === 'national';
+      });
+    }
+    
+    // Handle state filtering with normalization
+    const normalizedGeo = this.dataLoader.normalizeStateName(geography);
+    return data.filter(row => {
+      const rowGeo = this.dataLoader.normalizeStateName(row.geography || row.state || '');
+      return rowGeo === normalizedGeo;
+    });
+  }
 
   extractMetricValue(row, metric) {
     // Try different possible field names for the metric
@@ -575,7 +592,21 @@ ${validStates.map(([state, stats], index) =>
 `;
 
     if (searchResults.length === 0) {
-      return header + 'No matches found. Try different search terms or check dataset availability.';
+      const suggestions = this.generateSearchSuggestions(query, geography);
+      return header + `No matches found for your search.
+
+**Possible reasons:**
+- Search terms may be too specific or contain typos
+- Geographic filter "${geography || 'none'}" may be limiting results
+- Dataset may not contain data for the specified criteria
+
+**Suggestions:**
+${suggestions.map(s => `- ${s}`).join('\n')}
+
+**Alternative searches to try:**
+- Remove geographic filter and search all locations
+- Try broader search terms (e.g., "covid" instead of "covid-19")
+- Search for related terms (e.g., "vaccination" instead of "immunization")`;
     }
 
     const results = searchResults.map(result => {
@@ -595,5 +626,74 @@ ${matches}
     }).join('\n\n---\n\n');
 
     return header + results;
+  }
+
+  generateSearchSuggestions(query, geography) {
+    const suggestions = [];
+    const queryLower = query.toLowerCase();
+
+    // Common search term mappings
+    const termMappings = {
+      'covid': ['covid-19', 'sars-cov-2', 'coronavirus'],
+      'flu': ['influenza', 'influenza a', 'influenza b'],
+      'vaccine': ['vaccination', 'immunization', 'coverage'],
+      'obesity': ['bmi', 'overweight', 'weight'],
+      'diabetes': ['hba1c', 'blood sugar', 'glucose']
+    };
+
+    // Dataset-specific suggestions
+    if (queryLower.includes('vaccine') || queryLower.includes('immunization')) {
+      suggestions.push('Try searching in immunizations_nis or immunizations_epic datasets');
+      suggestions.push('Use terms like "MMR", "DTaP", "COVID-19", or "coverage_rate"');
+    }
+
+    if (queryLower.includes('respiratory') || queryLower.includes('covid') || queryLower.includes('flu')) {
+      suggestions.push('Try respiratory_ed, respiratory_lab, or respiratory_wastewater datasets');
+      suggestions.push('Use terms like "RSV", "influenza", "ed_visits", or "positivity_rate"');
+    }
+
+    if (queryLower.includes('chronic') || queryLower.includes('obesity') || queryLower.includes('diabetes')) {
+      suggestions.push('Try chronic_obesity or chronic_diabetes datasets');
+      suggestions.push('Use terms like "prevalence_rate", "BMI", or "HbA1c"');
+    }
+
+    // Geography-specific suggestions
+    if (geography && geography.toLowerCase() !== 'national') {
+      suggestions.push('Some datasets only have national-level data - try geography="national"');
+      suggestions.push('Check if the state code is correct (e.g., "CA" for California)');
+    }
+
+    // Add alternative terms
+    Object.entries(termMappings).forEach(([key, alternatives]) => {
+      if (queryLower.includes(key)) {
+        suggestions.push(`Try alternative terms: ${alternatives.join(', ')}`);
+      }
+    });
+
+    // Default suggestions if none specific
+    if (suggestions.length === 0) {
+      suggestions.push('Try broader search terms');
+      suggestions.push('Check spelling and use common medical terminology');
+      suggestions.push('Search without geographic filters first');
+    }
+
+    return suggestions;
+  }
+
+  generateAlternativeDatasets(args) {
+    const alternatives = [];
+    const { geography, query } = args;
+
+    // Suggest datasets based on geography capabilities
+    if (geography && geography.toLowerCase() === 'national') {
+      alternatives.push('immunizations_nis (national data available)');
+      alternatives.push('respiratory_lab (national surveillance)');
+    } else if (geography && geography.toLowerCase() !== 'national') {
+      alternatives.push('respiratory_ed (state-level data)');
+      alternatives.push('chronic_obesity (state-level data)');
+      alternatives.push('chronic_diabetes (state-level data)');
+    }
+
+    return alternatives;
   }
 }

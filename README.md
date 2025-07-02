@@ -94,18 +94,60 @@ Add to your MCP client configuration (e.g., Claude Desktop):
 }
 ```
 
+## Dataset Selection Guide
+
+Choose the right dataset for your analysis:
+
+| Dataset | Geographic Level | Best Use Cases | Date Range | Update Frequency | Key Limitations |
+|---------|------------------|----------------|------------|------------------|-----------------|
+| `immunizations_nis` | National + State | National vaccination trends, state comparisons | 2019-2024 | Annual | Survey data, limited demographics |
+| `immunizations_epic` | National + State | Real-world vaccination patterns, insurance analysis | 2020-2024 | Monthly | EHR network bias |
+| `respiratory_ed` | National + State | Emergency department surveillance, outbreak detection | 2020-2024 | Weekly | Healthcare utilization only |
+| `respiratory_lab` | National only | Clinical test positivity, laboratory surveillance | 2020-2024 | Weekly | National aggregates only |
+| `respiratory_wastewater` | Regional | Environmental surveillance, early warning | 2022-2024 | Weekly | Limited geographic coverage |
+| `respiratory_trends` | National + State | Population behavior, symptom searches | 2020-2024 | Weekly | Behavioral proxy, not clinical |
+| `chronic_obesity` | National + State | Obesity prevalence, chronic disease tracking | 2020-2024 | Quarterly | Clinical populations only |
+| `chronic_diabetes` | National + State | Diabetes management, glycemic control | 2020-2024 | Quarterly | Clinical populations only |
+
+### Quick Dataset Selection
+
+**For national trends:** Use `immunizations_nis`, `respiratory_lab`, or any dataset with `geography="national"`
+
+**For state comparisons:** Use `respiratory_ed`, `chronic_obesity`, `chronic_diabetes`, or `immunizations_nis`
+
+**For real-time surveillance:** Use `respiratory_ed`, `respiratory_wastewater`, or `respiratory_trends`
+
+**For clinical outcomes:** Use `immunizations_epic`, `chronic_obesity`, or `chronic_diabetes`
+
 ## Usage Examples
 
 ### Basic Data Filtering
 
 ```javascript
-// Filter immunization data for California
+// ✅ WORKING: Filter immunization data for California
 {
   "tool": "filter_data",
   "arguments": {
     "dataset": "immunizations_nis",
-    "state": "CA",
-    "vaccine": "MMR"
+    "state": "CA"
+  }
+}
+
+// ✅ WORKING: Filter national immunization data
+{
+  "tool": "filter_data",
+  "arguments": {
+    "dataset": "immunizations_nis",
+    "state": "US"
+  }
+}
+
+// ❌ AVOID: This will return 0 results
+{
+  "tool": "filter_data",
+  "arguments": {
+    "dataset": "respiratory_lab",
+    "state": "CA"  // respiratory_lab only has national data
   }
 }
 ```
@@ -113,7 +155,7 @@ Add to your MCP client configuration (e.g., Claude Desktop):
 ### State Comparison
 
 ```javascript
-// Compare obesity rates across states
+// ✅ WORKING: Compare obesity rates across states
 {
   "tool": "compare_states",
   "arguments": {
@@ -123,19 +165,63 @@ Add to your MCP client configuration (e.g., Claude Desktop):
     "time_period": "latest"
   }
 }
+
+// ✅ WORKING: Compare vaccination coverage
+{
+  "tool": "compare_states",
+  "arguments": {
+    "dataset": "immunizations_nis",
+    "states": ["California", "Texas", "New York"],  // Full names work too
+    "metric": "coverage_rate"
+  }
+}
 ```
 
 ### Time Series Analysis
 
 ```javascript
-// Analyze respiratory disease trends
+// ✅ WORKING: Analyze national respiratory trends
 {
   "tool": "time_series_analysis",
   "arguments": {
     "dataset": "respiratory_ed",
     "metric": "ed_visits_per_100k",
-    "geography": "US",
+    "geography": "national",  // Use "national" for US-level data
     "aggregation": "weekly"
+  }
+}
+
+// ✅ WORKING: Analyze state-level trends
+{
+  "tool": "time_series_analysis",
+  "arguments": {
+    "dataset": "respiratory_ed",
+    "metric": "ed_visits_per_100k",
+    "geography": "CA",
+    "start_date": "2024-01-01",
+    "end_date": "2024-12-01"
+  }
+}
+```
+
+### Search Health Data
+
+```javascript
+// ✅ WORKING: Search with national geography
+{
+  "tool": "search_health_data",
+  "arguments": {
+    "query": "RSV",
+    "geography": "national"  // Fixed: Use "national" instead of "US"
+  }
+}
+
+// ✅ WORKING: Search specific datasets
+{
+  "tool": "search_health_data",
+  "arguments": {
+    "query": "vaccination coverage",
+    "datasets": ["immunizations_nis", "immunizations_epic"]
   }
 }
 ```
@@ -143,12 +229,146 @@ Add to your MCP client configuration (e.g., Claude Desktop):
 ### Using Prompts
 
 ```javascript
-// Generate immunization gap analysis
+// ✅ WORKING: Generate immunization gap analysis
 {
   "prompt": "immunization_gaps",
   "arguments": {
     "state": "Texas",
     "demographic_focus": "insurance"
+  }
+}
+
+// ✅ WORKING: Detect respiratory surges
+{
+  "prompt": "respiratory_surge_detection",
+  "arguments": {
+    "region": "California",
+    "virus_type": "RSV",
+    "time_period": "last_4_weeks"
+  }
+}
+```
+
+## Common Issues & Solutions
+
+### Issue: "No data found" or 0 results
+
+**Cause:** Geographic mismatch or dataset limitations
+
+**Solutions:**
+1. **Check dataset capabilities:** Use `get_available_datasets` to see supported geographies
+2. **Use correct geography values:**
+   - For national data: `"geography": "national"` (not "US")
+   - For states: Use state codes ("CA") or full names ("California")
+3. **Try alternative datasets:** Some datasets only support national-level analysis
+
+```javascript
+// ❌ Problem: Wrong geography for national data
+{
+  "tool": "search_health_data",
+  "arguments": {
+    "query": "influenza",
+    "geography": "US"  // Should be "national"
+  }
+}
+
+// ✅ Solution: Use correct geography
+{
+  "tool": "search_health_data",
+  "arguments": {
+    "query": "influenza",
+    "geography": "national"
+  }
+}
+```
+
+### Issue: Empty results for state-level queries
+
+**Cause:** Dataset only contains national-level data
+
+**Solutions:**
+1. **Check dataset metadata** first using `get_available_datasets`
+2. **Use state-capable datasets:** `respiratory_ed`, `chronic_obesity`, `chronic_diabetes`, `immunizations_nis`
+3. **Switch to national analysis** for datasets like `respiratory_lab`
+
+### Issue: Metric not found
+
+**Cause:** Incorrect metric name or dataset mismatch
+
+**Solutions:**
+1. **Use dataset-appropriate metrics:**
+   - Immunizations: `coverage_rate`, `sample_size`
+   - Respiratory: `ed_visits_per_100k`, `positivity_rate`
+   - Chronic: `prevalence_rate`, `patient_count`
+2. **Check sample data** using `get_available_datasets` with `include_sample: true`
+
+## Working Parameter Combinations
+
+### Immunization Analysis
+```javascript
+// National vaccination trends
+{
+  "tool": "time_series_analysis",
+  "arguments": {
+    "dataset": "immunizations_nis",
+    "metric": "coverage_rate",
+    "geography": "national"
+  }
+}
+
+// State vaccination comparison
+{
+  "tool": "compare_states",
+  "arguments": {
+    "dataset": "immunizations_nis",
+    "states": ["CA", "TX", "NY", "FL"],
+    "metric": "coverage_rate"
+  }
+}
+```
+
+### Respiratory Surveillance
+```javascript
+// Emergency department trends
+{
+  "tool": "filter_data",
+  "arguments": {
+    "dataset": "respiratory_ed",
+    "state": "CA",
+    "condition": "RSV"
+  }
+}
+
+// National lab surveillance
+{
+  "tool": "time_series_analysis",
+  "arguments": {
+    "dataset": "respiratory_lab",
+    "metric": "positivity_rate",
+    "geography": "national"
+  }
+}
+```
+
+### Chronic Disease Analysis
+```javascript
+// Obesity prevalence by state
+{
+  "tool": "filter_data",
+  "arguments": {
+    "dataset": "chronic_obesity",
+    "state": "TX",
+    "age_group": "18-64"
+  }
+}
+
+// Diabetes trends
+{
+  "tool": "time_series_analysis",
+  "arguments": {
+    "dataset": "chronic_diabetes",
+    "metric": "prevalence_rate",
+    "geography": "CA"
   }
 }
 ```

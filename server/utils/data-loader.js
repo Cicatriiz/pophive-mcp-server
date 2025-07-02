@@ -290,6 +290,30 @@ export class DataLoader {
   }
 
   async getDatasetMetadata(datasetName) {
+    // Get actual data to compute real metadata
+    let actualData = [];
+    try {
+      actualData = await this.loadDataset(datasetName);
+    } catch (error) {
+      console.warn(`Could not load data for metadata computation: ${error.message}`);
+    }
+
+    // Compute actual date range and geographies
+    const computeActualMetadata = (data) => {
+      const dates = data.map(row => row.date || row.year).filter(Boolean);
+      const geographies = [...new Set(data.map(row => row.geography || row.state).filter(Boolean))];
+      
+      let dateRange = { min: null, max: null };
+      if (dates.length > 0) {
+        const sortedDates = dates.sort();
+        dateRange = { min: sortedDates[0], max: sortedDates[sortedDates.length - 1] };
+      }
+
+      return { dateRange, geographies };
+    };
+
+    const { dateRange, geographies } = computeActualMetadata(actualData);
+
     const metadata = {
       'immunizations_nis': {
         name: 'CDC National Immunization Survey',
@@ -297,10 +321,15 @@ export class DataLoader {
         source: 'CDC National Immunization Survey (NIS)',
         update_frequency: 'Annual',
         geographic_level: 'State',
+        geographic_granularity: ['national', 'state'],
+        supported_geographies: geographies.length > 0 ? geographies : ['US', 'CA', 'TX', 'FL', 'NY', 'PA', 'IL', 'OH', 'GA', 'NC'],
         time_range: '2019-2024',
+        date_range_actual: dateRange,
         key_metrics: ['coverage_rate', 'sample_size'],
+        supported_filters: ['state', 'geography', 'vaccine', 'age_group', 'year'],
         demographics: ['age_group'],
-        data_quality: 'High - Gold standard for vaccination coverage'
+        data_quality: 'High - Gold standard for vaccination coverage',
+        sample_record: actualData.length > 0 ? actualData[0] : null
       },
       'immunizations_epic': {
         name: 'Epic Cosmos Immunization Data',
@@ -308,10 +337,15 @@ export class DataLoader {
         source: 'Epic Cosmos EHR Network',
         update_frequency: 'Monthly',
         geographic_level: 'State',
+        geographic_granularity: ['national', 'state'],
+        supported_geographies: geographies.length > 0 ? geographies : ['US', 'CA', 'TX', 'FL', 'NY'],
         time_range: '2020-2024',
+        date_range_actual: dateRange,
         key_metrics: ['coverage_rate', 'patient_count'],
+        supported_filters: ['state', 'geography', 'vaccine', 'insurance_type', 'urbanicity', 'year'],
         demographics: ['insurance_type', 'urbanicity'],
-        data_quality: 'High - Large EHR network, real-world data'
+        data_quality: 'High - Large EHR network, real-world data',
+        sample_record: actualData.length > 0 ? actualData[0] : null
       },
       'respiratory_ed': {
         name: 'Emergency Department Visits',
@@ -319,10 +353,15 @@ export class DataLoader {
         source: 'Epic Cosmos, CDC NSSP',
         update_frequency: 'Weekly',
         geographic_level: 'State/County',
+        geographic_granularity: ['national', 'state'],
+        supported_geographies: geographies.length > 0 ? geographies : ['US', 'CA', 'TX', 'FL', 'NY'],
         time_range: '2020-2024',
+        date_range_actual: dateRange,
         key_metrics: ['ed_visits', 'ed_visits_per_100k', 'percent_change'],
+        supported_filters: ['state', 'geography', 'virus', 'date', 'week', 'age_group'],
         demographics: ['age_group'],
-        data_quality: 'High - Near real-time surveillance'
+        data_quality: 'High - Near real-time surveillance',
+        sample_record: actualData.length > 0 ? actualData[0] : null
       },
       'respiratory_lab': {
         name: 'Laboratory Test Positivity',
@@ -330,10 +369,15 @@ export class DataLoader {
         source: 'CDC National Respiratory and Enteric Virus Surveillance System (NREVSS)',
         update_frequency: 'Weekly',
         geographic_level: 'National/Regional',
+        geographic_granularity: ['national'],
+        supported_geographies: geographies.length > 0 ? geographies : ['US'],
         time_range: '2020-2024',
+        date_range_actual: dateRange,
         key_metrics: ['positivity_rate', 'tests_positive', 'total_tests'],
+        supported_filters: ['geography', 'virus', 'date', 'week'],
         demographics: [],
-        data_quality: 'High - Clinical laboratory data'
+        data_quality: 'High - Clinical laboratory data',
+        sample_record: actualData.length > 0 ? actualData[0] : null
       },
       'respiratory_wastewater': {
         name: 'Wastewater Surveillance',
@@ -341,10 +385,15 @@ export class DataLoader {
         source: 'CDC National Wastewater Surveillance System (NWWS)',
         update_frequency: 'Weekly',
         geographic_level: 'Regional/Local',
+        geographic_granularity: ['regional'],
+        supported_geographies: geographies.length > 0 ? geographies : ['Region 1', 'Region 2', 'Region 3', 'Region 4', 'Region 5'],
         time_range: '2020-2024',
+        date_range_actual: dateRange,
         key_metrics: ['viral_level', 'copies_per_ml', 'percent_change'],
+        supported_filters: ['geography', 'virus', 'date', 'week'],
         demographics: [],
-        data_quality: 'Moderate - Environmental surveillance, early indicator'
+        data_quality: 'Moderate - Environmental surveillance, early indicator',
+        sample_record: actualData.length > 0 ? actualData[0] : null
       },
       'respiratory_trends': {
         name: 'Google Health Trends',
@@ -352,10 +401,15 @@ export class DataLoader {
         source: 'Google Health Trends',
         update_frequency: 'Weekly',
         geographic_level: 'State/National',
+        geographic_granularity: ['national', 'state'],
+        supported_geographies: geographies.length > 0 ? geographies : ['US', 'CA', 'TX', 'FL', 'NY'],
         time_range: '2020-2024',
+        date_range_actual: dateRange,
         key_metrics: ['relative_search_volume', 'percent_change'],
+        supported_filters: ['state', 'geography', 'search_term', 'date', 'week'],
         demographics: [],
-        data_quality: 'Moderate - Behavioral indicator, early signal'
+        data_quality: 'Moderate - Behavioral indicator, early signal',
+        sample_record: actualData.length > 0 ? actualData[0] : null
       },
       'chronic_obesity': {
         name: 'Obesity Prevalence',
@@ -363,10 +417,15 @@ export class DataLoader {
         source: 'Epic Cosmos EHR Network',
         update_frequency: 'Quarterly',
         geographic_level: 'State',
+        geographic_granularity: ['national', 'state'],
+        supported_geographies: geographies.length > 0 ? geographies : ['US', 'CA', 'TX', 'FL', 'NY'],
         time_range: '2020-2024',
+        date_range_actual: dateRange,
         key_metrics: ['prevalence_rate', 'patient_count'],
+        supported_filters: ['state', 'geography', 'age_group', 'condition', 'year'],
         demographics: ['age_group'],
-        data_quality: 'High - Clinical measurements from EHR'
+        data_quality: 'High - Clinical measurements from EHR',
+        sample_record: actualData.length > 0 ? actualData[0] : null
       },
       'chronic_diabetes': {
         name: 'Diabetes Prevalence',
@@ -374,10 +433,15 @@ export class DataLoader {
         source: 'Epic Cosmos EHR Network',
         update_frequency: 'Quarterly',
         geographic_level: 'State',
+        geographic_granularity: ['national', 'state'],
+        supported_geographies: geographies.length > 0 ? geographies : ['US', 'CA', 'TX', 'FL', 'NY'],
         time_range: '2020-2024',
+        date_range_actual: dateRange,
         key_metrics: ['prevalence_rate', 'patient_count'],
+        supported_filters: ['state', 'geography', 'age_group', 'condition', 'year'],
         demographics: ['age_group'],
-        data_quality: 'High - Clinical lab values from EHR'
+        data_quality: 'High - Clinical lab values from EHR',
+        sample_record: actualData.length > 0 ? actualData[0] : null
       }
     };
 
