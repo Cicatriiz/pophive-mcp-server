@@ -6,6 +6,14 @@ A Model Context Protocol (MCP) server that provides access to PopHIVE (Populatio
 
 **📦 Desktop Extension Ready**: Fully compliant with Anthropic's Desktop Extension (DXT) specification for one-click installation in Claude Desktop and other MCP-enabled applications.
 
+
+## What is PopHIVE? 
+
+PopHIVE (Population Health Information Visual Explorer) is Yale's comprehensive platform that aggregates near real-time public health data from authoritative sources including CDC surveillance systems, Epic Cosmos EHR networks, and Google Health Trends. It's an invaluable resource for epidemiologists, researchers, and public health professionals.
+
+👉 Explore PopHIVE: [](https://www.pophive.org/)<https://www.pophive.org/>
+
+
 ## Recent Improvements
 
 ### ✅ Critical Bug Fixes (v1.0.0)
