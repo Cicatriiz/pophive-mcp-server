@@ -56,22 +56,26 @@
     {
       "name": "immunization_gaps",
       "description": "Analyze vaccination coverage gaps by demographic factors",
-      "arguments": ["state", "vaccine_type", "demographic_focus"]
+      "arguments": ["state", "vaccine_type", "demographic_focus"],
+      "text": "Analyze vaccination coverage gaps in ${arguments.state} for ${arguments.vaccine_type} vaccine, focusing on ${arguments.demographic_focus} demographics. Use the immunizations datasets to identify coverage disparities and provide actionable insights for public health interventions."
     },
     {
       "name": "respiratory_surge_detection",
       "description": "Identify respiratory disease surges in specific regions",
-      "arguments": ["region", "virus_type", "time_period"]
+      "arguments": ["region", "virus_type", "time_period"],
+      "text": "Analyze respiratory disease surveillance data for ${arguments.region} to detect ${arguments.virus_type} surges during ${arguments.time_period}. Use emergency department visits, lab positivity rates, and wastewater data to identify concerning trends and provide early warning insights."
     },
     {
       "name": "chronic_disease_trends",
       "description": "Analyze obesity/diabetes trends and correlations",
-      "arguments": ["condition", "demographic_focus", "comparison_states"]
+      "arguments": ["condition", "demographic_focus", "comparison_states"],
+      "text": "Examine ${arguments.condition} trends with focus on ${arguments.demographic_focus} demographics. Compare patterns across ${arguments.comparison_states} using chronic disease datasets to identify risk factors, trends, and opportunities for intervention."
     },
     {
       "name": "multi_source_analysis",
       "description": "Compare data across multiple sources for comprehensive health insights",
-      "arguments": ["health_topic", "geographic_focus", "time_range"]
+      "arguments": ["health_topic", "geographic_focus", "time_range"],
+      "text": "Conduct comprehensive analysis of ${arguments.health_topic} in ${arguments.geographic_focus} during ${arguments.time_range}. Integrate data from multiple PopHIVE sources (immunizations, respiratory surveillance, chronic disease data) to provide holistic public health insights and recommendations."
     }
   ],
   "tools_generated": true,
