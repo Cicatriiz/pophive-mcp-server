@@ -16,17 +16,24 @@ PopHIVE (Population Health Information Visual Explorer) is Yale's comprehensive 
 
 ## Recent Improvements
 
-### ✅ Critical Bug Fixes (v1.0.0)
-- **Fixed Geography Filter Bug**: The "national" geography filter now works correctly and returns proper results
-- **Enhanced Search Algorithm**: Search now includes both field names and values for comprehensive matching
-- **Improved Error Handling**: Added descriptive error messages with specific suggestions when searches return no results
-- **Enhanced Dataset Metadata**: Added geographic granularity, date ranges, key metrics, and data quality indicators
+### New Features
 
-### 🔧 Technical Improvements
-- **Better Geography Handling**: Supports "national", "US", and state-level filtering with proper normalization
-- **Comprehensive Error Messages**: Context-aware suggestions based on search terms and geography filters
-- **Dataset Capability Documentation**: Clear indication of which datasets support state vs national analysis
-- **Production-Ready Error Handling**: Graceful handling of edge cases with helpful user guidance
+    Implemented scrapers for three new datasets:
+        Hospital Capacity: Fetches state-level hospital utilization data from HealthData.gov.
+        Injury & Overdose: Fetches national-level injury and overdose death data from data.cdc.gov.
+        Youth Mental Health ED Visits: Fetches national-level data on youth mental health-related emergency department visits from data.cdc.gov.
+
+### Performance Improvements
+
+    Implemented a parallel, batched initial fetch for the hospital capacity dataset to significantly speed up the first-time data download.
+    Added incremental update logic to all scrapers to only fetch new data, reducing subsequent load times.
+
+### Bug Fixes
+
+    Corrected date parsing logic in the analysis tools to robustly handle various date formats across all datasets.
+    Fixed an issue where the hospital capacity scraper was not fetching all records.
+
+
 
 ## Overview
 
