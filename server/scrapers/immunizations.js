@@ -1,7 +1,6 @@
 import axios from 'axios';
 import * as cheerio from 'cheerio';
-import fs from 'fs/promises';
-import path from 'path';
+import { saveData } from '../utils/file-saver.js';
 
 export class ImmunizationsScraper {
   constructor(dataDir) {
@@ -65,8 +64,8 @@ export class ImmunizationsScraper {
       }
 
       // Save the scraped data
-      await this.saveData('immunizations_nis.json', nisData);
-      await this.saveData('immunizations_epic.json', epicData);
+      await saveData(this.dataDir, 'immunizations_nis.json', nisData);
+      await saveData(this.dataDir, 'immunizations_epic.json', epicData);
 
       console.error(`Immunizations data scraped: ${nisData.length} NIS records, ${epicData.length} Epic records`);
       
@@ -81,8 +80,8 @@ export class ImmunizationsScraper {
       const nisData = this.generateSampleNISData();
       const epicData = this.generateSampleEpicData();
       
-      await this.saveData('immunizations_nis.json', nisData);
-      await this.saveData('immunizations_epic.json', epicData);
+      await saveData(this.dataDir, 'immunizations_nis.json', nisData);
+      await saveData(this.dataDir, 'immunizations_epic.json', epicData);
       
       return {
         nis: nisData,
@@ -325,14 +324,4 @@ export class ImmunizationsScraper {
     return data;
   }
 
-  async saveData(filename, data) {
-    try {
-      await fs.mkdir(this.dataDir, { recursive: true });
-      const filepath = path.join(this.dataDir, filename);
-      await fs.writeFile(filepath, JSON.stringify(data, null, 2));
-      console.error(`Saved ${data.length} records to ${filename}`);
-    } catch (error) {
-      console.error(`Error saving ${filename}:`, error.message);
-    }
-  }
 }

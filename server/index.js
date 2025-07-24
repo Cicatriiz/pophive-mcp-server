@@ -15,6 +15,9 @@ import { DataLoader } from './utils/data-loader.js';
 import { ImmunizationsScraper } from './scrapers/immunizations.js';
 import { RespiratoryScraper } from './scrapers/respiratory.js';
 import { ChronicDiseasesScraper } from './scrapers/chronic-diseases.js';
+import { HospitalCapacityScraper } from './scrapers/hospital-capacity.js';
+import { InjuryOverdoseScraper } from './scrapers/injury-overdose.js';
+import { YouthMentalHealthScraper } from './scrapers/youth-mental-health.js';
 import { AnalysisTools } from './tools/analysis-tools.js';
 import { PromptTemplates } from './prompts/prompt-templates.js';
 
@@ -44,6 +47,9 @@ class PopHIVEMCPServer {
     this.immunizationsScraper = new ImmunizationsScraper(dataDir);
     this.respiratoryScraper = new RespiratoryScraper(dataDir);
     this.chronicDiseasesScraper = new ChronicDiseasesScraper(dataDir);
+    this.hospitalCapacityScraper = new HospitalCapacityScraper(dataDir);
+    this.injuryOverdoseScraper = new InjuryOverdoseScraper(dataDir);
+    this.youthMentalHealthScraper = new YouthMentalHealthScraper(dataDir);
 
     this.setupHandlers();
     this.initializeData();
@@ -62,7 +68,10 @@ class PopHIVEMCPServer {
         await Promise.all([
           this.immunizationsScraper.scrapeAll(),
           this.respiratoryScraper.scrapeAll(),
-          this.chronicDiseasesScraper.scrapeAll()
+          this.chronicDiseasesScraper.scrapeAll(),
+          this.hospitalCapacityScraper.scrapeAll(),
+          this.injuryOverdoseScraper.scrapeAll(),
+          this.youthMentalHealthScraper.scrapeAll()
         ]);
         console.error('Data refresh complete');
       } else {
@@ -86,7 +95,7 @@ class PopHIVEMCPServer {
             properties: {
               dataset: {
                 type: 'string',
-                enum: ['immunizations_nis', 'immunizations_epic', 'respiratory_ed', 'respiratory_lab', 'respiratory_wastewater', 'respiratory_trends', 'chronic_obesity', 'chronic_diabetes'],
+                enum: ['immunizations_nis', 'immunizations_epic', 'respiratory_ed', 'respiratory_lab', 'respiratory_wastewater', 'respiratory_trends', 'chronic_obesity', 'chronic_diabetes', 'hospital_capacity', 'injury_overdose', 'youth_ed_mental_health'],
                 description: 'Dataset to filter'
               },
               state: {
@@ -123,7 +132,7 @@ class PopHIVEMCPServer {
             properties: {
               dataset: { 
                 type: 'string',
-                enum: ['immunizations_nis', 'immunizations_epic', 'respiratory_ed', 'respiratory_lab', 'respiratory_wastewater', 'respiratory_trends', 'chronic_obesity', 'chronic_diabetes'],
+                enum: ['immunizations_nis', 'immunizations_epic', 'respiratory_ed', 'respiratory_lab', 'respiratory_wastewater', 'respiratory_trends', 'chronic_obesity', 'chronic_diabetes', 'hospital_capacity', 'injury_overdose', 'youth_ed_mental_health'],
                 description: 'Dataset to analyze'
               },
               states: {
@@ -152,7 +161,7 @@ class PopHIVEMCPServer {
             properties: {
               dataset: { 
                 type: 'string',
-                enum: ['immunizations_nis', 'immunizations_epic', 'respiratory_ed', 'respiratory_lab', 'respiratory_wastewater', 'respiratory_trends', 'chronic_obesity', 'chronic_diabetes']
+                enum: ['immunizations_nis', 'immunizations_epic', 'respiratory_ed', 'respiratory_lab', 'respiratory_wastewater', 'respiratory_trends', 'chronic_obesity', 'chronic_diabetes', 'hospital_capacity', 'injury_overdose', 'youth_ed_mental_health']
               },
               metric: { type: 'string', description: 'Metric to analyze over time' },
               geography: { type: 'string', description: 'Geographic focus (state, region, or "national")' },
@@ -402,6 +411,24 @@ class PopHIVEMCPServer {
           uri: 'dataset://chronic_diabetes',
           name: 'Diabetes Prevalence',
           description: 'HbA1c ≥7% prevalence by state and age group',
+          mimeType: 'application/json'
+        },
+        {
+          uri: 'dataset://hospital_capacity',
+          name: 'HHS Hospital Capacity',
+          description: 'State-level data on hospital bed capacity and utilization',
+          mimeType: 'application/json'
+        },
+        {
+          uri: 'dataset://injury_overdose',
+          name: 'CDC Injury, Overdose, and Violence Data',
+          description: 'National-level data on injury, overdose, and violence-related deaths',
+          mimeType: 'application/json'
+        },
+        {
+          uri: 'dataset://youth_ed_mental_health',
+          name: 'CDC Youth Mental Health ED Visits',
+          description: 'National-level data on mental health-related emergency department visits for youth',
           mimeType: 'application/json'
         }
       ]

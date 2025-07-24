@@ -55,6 +55,9 @@ PopHIVE aggregates near real-time health data from multiple authoritative source
 - **dataset://respiratory_trends**: Google search trends for respiratory symptoms
 - **dataset://chronic_obesity**: Obesity prevalence by state and age group
 - **dataset://chronic_diabetes**: Diabetes prevalence and glycemic control data
+- **dataset://hospital_capacity**: HHS hospital capacity data
+- **dataset://injury_overdose**: CDC injury and overdose data
+- **dataset://youth_ed_mental_health**: CDC youth mental health ED visit data
 
 ### 💡 MCP Prompts
 - **immunization_gaps**: Analyze vaccination coverage gaps by demographics
@@ -172,6 +175,9 @@ Choose the right dataset for your analysis:
 | `respiratory_trends` | National + State | Population behavior, symptom searches | 2020-2024 | Weekly | Behavioral proxy, not clinical |
 | `chronic_obesity` | National + State | Obesity prevalence, chronic disease tracking | 2020-2024 | Quarterly | Clinical populations only |
 | `chronic_diabetes` | National + State | Diabetes management, glycemic control | 2020-2024 | Quarterly | Clinical populations only |
+| `hospital_capacity` | State | Hospital utilization, bed capacity, staffing shortages | 2020-2024 | Daily | COVID-era focus |
+| `injury_overdose` | National | Drug overdoses, homicides, suicides | 2019-2025 | Monthly/Quarterly | National aggregates only |
+| `youth_ed_mental_health` | National | Youth mental health ED visits, demographic trends | 2019-2025 | Monthly | National aggregates only |
 
 ### Quick Dataset Selection
 

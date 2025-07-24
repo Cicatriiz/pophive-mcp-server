@@ -4,3299 +4,3299 @@
     "year": 2020,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 26.87936004188562,
-    "patient_count": 60225,
+    "prevalence_rate": 26.65467848007605,
+    "patient_count": 43449,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "US",
     "year": 2021,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 24.722451014518693,
-    "patient_count": 56290,
+    "prevalence_rate": 31.181382157713877,
+    "patient_count": 22583,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "US",
     "year": 2022,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 28.74522300399839,
-    "patient_count": 33177,
+    "prevalence_rate": 27.256096384377965,
+    "patient_count": 91195,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "US",
     "year": 2023,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 30.558031485085184,
-    "patient_count": 21495,
+    "prevalence_rate": 26.35123801556314,
+    "patient_count": 49562,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "US",
     "year": 2024,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 25.283752426597307,
-    "patient_count": 52343,
+    "prevalence_rate": 30.15255624529817,
+    "patient_count": 60785,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "US",
     "year": 2020,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 34.72100756121405,
-    "patient_count": 34114,
+    "prevalence_rate": 35.09037758605422,
+    "patient_count": 51507,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "US",
     "year": 2021,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 34.81760704542224,
-    "patient_count": 72335,
+    "prevalence_rate": 35.0809062891889,
+    "patient_count": 45059,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "US",
     "year": 2022,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 31.362224425277446,
-    "patient_count": 70819,
+    "prevalence_rate": 37.666487723439495,
+    "patient_count": 32718,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "US",
     "year": 2023,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 33.45327845042782,
-    "patient_count": 60310,
+    "prevalence_rate": 31.43438047180986,
+    "patient_count": 28484,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "US",
     "year": 2024,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 35.31946589154896,
-    "patient_count": 42596,
+    "prevalence_rate": 38.919794006951925,
+    "patient_count": 36342,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "US",
     "year": 2020,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 39.216125147827164,
-    "patient_count": 61000,
+    "prevalence_rate": 41.19199889528251,
+    "patient_count": 27983,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "US",
     "year": 2021,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 43.348839815484595,
-    "patient_count": 45414,
+    "prevalence_rate": 43.865701929129074,
+    "patient_count": 87683,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "US",
     "year": 2022,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 42.57985440252625,
-    "patient_count": 96001,
+    "prevalence_rate": 41.780543908003004,
+    "patient_count": 79588,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "US",
     "year": 2023,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 42.97145366174238,
-    "patient_count": 98952,
+    "prevalence_rate": 42.09753205362381,
+    "patient_count": 30564,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "US",
     "year": 2024,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 43.34674433122894,
-    "patient_count": 49775,
+    "prevalence_rate": 39.508942196515335,
+    "patient_count": 34120,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "US",
     "year": 2020,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 34.67027891104567,
-    "patient_count": 86242,
+    "prevalence_rate": 32.209131106143374,
+    "patient_count": 58514,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "US",
     "year": 2021,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 34.23413348927707,
-    "patient_count": 22489,
+    "prevalence_rate": 30.8612881267671,
+    "patient_count": 35670,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "US",
     "year": 2022,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 35.29688659696693,
-    "patient_count": 29392,
+    "prevalence_rate": 35.907351093890284,
+    "patient_count": 38812,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "US",
     "year": 2023,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 30.01559421398685,
-    "patient_count": 44633,
+    "prevalence_rate": 30.659025744249302,
+    "patient_count": 55038,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "US",
     "year": 2024,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 35.99459261249478,
-    "patient_count": 96024,
+    "prevalence_rate": 31.711752250086143,
+    "patient_count": 22958,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "CA",
     "year": 2020,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 27.708965056804786,
-    "patient_count": 50551,
+    "prevalence_rate": 23.029200455896223,
+    "patient_count": 71608,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "CA",
     "year": 2021,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 21.111330516412803,
-    "patient_count": 85712,
+    "prevalence_rate": 23.06209799228831,
+    "patient_count": 63409,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "CA",
     "year": 2022,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 21.496514896938322,
-    "patient_count": 80965,
+    "prevalence_rate": 20.894236141212218,
+    "patient_count": 36630,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "CA",
     "year": 2023,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 20.002396344934795,
-    "patient_count": 91561,
+    "prevalence_rate": 26.74678476628418,
+    "patient_count": 65164,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "CA",
     "year": 2024,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 20.220091569249906,
-    "patient_count": 41336,
+    "prevalence_rate": 24.18754249614849,
+    "patient_count": 59379,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "CA",
     "year": 2020,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 26.210188178553523,
-    "patient_count": 60597,
+    "prevalence_rate": 30.888547264217138,
+    "patient_count": 93096,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "CA",
     "year": 2021,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 31.851009653587198,
-    "patient_count": 68352,
+    "prevalence_rate": 26.47786078899938,
+    "patient_count": 26472,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "CA",
     "year": 2022,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 33.4532877765636,
-    "patient_count": 37830,
+    "prevalence_rate": 26.023615878967718,
+    "patient_count": 68777,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "CA",
     "year": 2023,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 31.594729857635617,
-    "patient_count": 89958,
+    "prevalence_rate": 32.65088775759112,
+    "patient_count": 81762,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "CA",
     "year": 2024,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 29.705106833102846,
-    "patient_count": 42370,
+    "prevalence_rate": 30.160973147737778,
+    "patient_count": 57028,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "CA",
     "year": 2020,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 33.60097245218185,
-    "patient_count": 49730,
+    "prevalence_rate": 36.182428593011004,
+    "patient_count": 88019,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "CA",
     "year": 2021,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 32.24950544495155,
-    "patient_count": 21550,
+    "prevalence_rate": 34.16488132336778,
+    "patient_count": 65801,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "CA",
     "year": 2022,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 30.739205142581397,
-    "patient_count": 92280,
+    "prevalence_rate": 34.24446254975284,
+    "patient_count": 64350,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "CA",
     "year": 2023,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 32.70594372782152,
-    "patient_count": 53651,
+    "prevalence_rate": 33.89577337568538,
+    "patient_count": 69080,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "CA",
     "year": 2024,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 31.018982044009263,
-    "patient_count": 95468,
+    "prevalence_rate": 32.07704318995738,
+    "patient_count": 61287,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "CA",
     "year": 2020,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 30.356746107624595,
-    "patient_count": 92372,
+    "prevalence_rate": 24.490111478901916,
+    "patient_count": 85844,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "CA",
     "year": 2021,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 30.314002113094737,
-    "patient_count": 28508,
+    "prevalence_rate": 25.7594469685718,
+    "patient_count": 79669,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "CA",
     "year": 2022,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 29.386762084819054,
-    "patient_count": 53909,
+    "prevalence_rate": 26.24155498096438,
+    "patient_count": 51043,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "CA",
     "year": 2023,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 23.34287059721021,
-    "patient_count": 73559,
+    "prevalence_rate": 26.8323608988715,
+    "patient_count": 49333,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "CA",
     "year": 2024,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 27.35590016187578,
-    "patient_count": 82972,
+    "prevalence_rate": 24.165037550828977,
+    "patient_count": 89075,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TX",
     "year": 2020,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 33.266200194415994,
-    "patient_count": 53891,
+    "prevalence_rate": 35.78839625585283,
+    "patient_count": 83109,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TX",
     "year": 2021,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 35.77178710450037,
-    "patient_count": 45406,
+    "prevalence_rate": 29.235733319869915,
+    "patient_count": 41619,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TX",
     "year": 2022,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 34.64868414608712,
-    "patient_count": 72629,
+    "prevalence_rate": 29.488828183735166,
+    "patient_count": 33717,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TX",
     "year": 2023,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 34.525721429161194,
-    "patient_count": 43171,
+    "prevalence_rate": 30.71443512245781,
+    "patient_count": 34411,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TX",
     "year": 2024,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 31.71158040792318,
-    "patient_count": 93472,
+    "prevalence_rate": 30.606728936012612,
+    "patient_count": 39770,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TX",
     "year": 2020,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 44.1137002739294,
-    "patient_count": 34944,
+    "prevalence_rate": 38.54423354255161,
+    "patient_count": 54837,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TX",
     "year": 2021,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 43.390763465093805,
-    "patient_count": 28733,
+    "prevalence_rate": 42.23683605163435,
+    "patient_count": 21150,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TX",
     "year": 2022,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 42.33315109406294,
-    "patient_count": 45099,
+    "prevalence_rate": 42.718524406736286,
+    "patient_count": 29637,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TX",
     "year": 2023,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 43.82579362607912,
-    "patient_count": 88410,
+    "prevalence_rate": 43.1927531071912,
+    "patient_count": 95054,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TX",
     "year": 2024,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 39.69046809755086,
-    "patient_count": 27180,
+    "prevalence_rate": 41.35374980173524,
+    "patient_count": 38334,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TX",
     "year": 2020,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 43.25190955746388,
-    "patient_count": 77530,
+    "prevalence_rate": 45.341055821916534,
+    "patient_count": 29834,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TX",
     "year": 2021,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 49.332775573025714,
-    "patient_count": 45831,
+    "prevalence_rate": 46.34402179187647,
+    "patient_count": 83675,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TX",
     "year": 2022,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 45.49375995904013,
-    "patient_count": 62050,
+    "prevalence_rate": 43.81010005316045,
+    "patient_count": 71256,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TX",
     "year": 2023,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 45.1318221593486,
-    "patient_count": 89049,
+    "prevalence_rate": 43.0744225961414,
+    "patient_count": 58716,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TX",
     "year": 2024,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 44.16764926024784,
-    "patient_count": 79768,
+    "prevalence_rate": 42.669136333930894,
+    "patient_count": 77819,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TX",
     "year": 2020,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 33.13491415030184,
-    "patient_count": 54703,
+    "prevalence_rate": 40.35890308900993,
+    "patient_count": 29228,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TX",
     "year": 2021,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 37.36701561667168,
-    "patient_count": 80015,
+    "prevalence_rate": 38.96471973480864,
+    "patient_count": 58574,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TX",
     "year": 2022,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 35.072220710755644,
-    "patient_count": 29539,
+    "prevalence_rate": 39.93844619079376,
+    "patient_count": 83294,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TX",
     "year": 2023,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 38.821198833787996,
-    "patient_count": 40535,
+    "prevalence_rate": 39.97093448196105,
+    "patient_count": 57652,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TX",
     "year": 2024,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 36.57960775014159,
-    "patient_count": 27754,
+    "prevalence_rate": 32.86025277417908,
+    "patient_count": 20270,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "FL",
     "year": 2020,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 26.211264755116638,
-    "patient_count": 28345,
+    "prevalence_rate": 27.5307964749562,
+    "patient_count": 42244,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "FL",
     "year": 2021,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 27.550378970492638,
-    "patient_count": 41767,
+    "prevalence_rate": 30.302947992038554,
+    "patient_count": 69314,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "FL",
     "year": 2022,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 24.00926609501473,
-    "patient_count": 53005,
+    "prevalence_rate": 27.385521144281466,
+    "patient_count": 36017,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "FL",
     "year": 2023,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 28.20671838255368,
-    "patient_count": 24817,
+    "prevalence_rate": 31.945293073193238,
+    "patient_count": 53307,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "FL",
     "year": 2024,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 28.17022354806544,
-    "patient_count": 80378,
+    "prevalence_rate": 27.791232995627276,
+    "patient_count": 67828,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "FL",
     "year": 2020,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 35.246164097087465,
-    "patient_count": 53910,
+    "prevalence_rate": 37.59280795844328,
+    "patient_count": 38348,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "FL",
     "year": 2021,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 34.19860034147117,
-    "patient_count": 89827,
+    "prevalence_rate": 33.57026837185071,
+    "patient_count": 72753,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "FL",
     "year": 2022,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 38.01405081659133,
-    "patient_count": 56339,
+    "prevalence_rate": 31.675601897508074,
+    "patient_count": 85343,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "FL",
     "year": 2023,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 36.49667571435715,
-    "patient_count": 72503,
+    "prevalence_rate": 36.12064400076598,
+    "patient_count": 65765,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "FL",
     "year": 2024,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 36.027738239694486,
-    "patient_count": 64063,
+    "prevalence_rate": 36.999424510927774,
+    "patient_count": 48176,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "FL",
     "year": 2020,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 43.81209547862291,
-    "patient_count": 56903,
+    "prevalence_rate": 38.20782054762482,
+    "patient_count": 25536,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "FL",
     "year": 2021,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 38.67163167366493,
-    "patient_count": 67878,
+    "prevalence_rate": 41.438921902710554,
+    "patient_count": 37049,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "FL",
     "year": 2022,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 41.31703224192029,
-    "patient_count": 94424,
+    "prevalence_rate": 39.13367937787855,
+    "patient_count": 93647,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "FL",
     "year": 2023,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 36.93114028042521,
-    "patient_count": 32316,
+    "prevalence_rate": 42.91588623312895,
+    "patient_count": 79274,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "FL",
     "year": 2024,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 39.70336847058859,
-    "patient_count": 61954,
+    "prevalence_rate": 39.644077377382914,
+    "patient_count": 81987,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "FL",
     "year": 2020,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 33.75487068631764,
-    "patient_count": 96444,
+    "prevalence_rate": 32.80927292680117,
+    "patient_count": 95430,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "FL",
     "year": 2021,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 34.10090976770678,
-    "patient_count": 23535,
+    "prevalence_rate": 28.344313038540445,
+    "patient_count": 60119,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "FL",
     "year": 2022,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 35.614025338734514,
-    "patient_count": 59864,
+    "prevalence_rate": 34.59409555944018,
+    "patient_count": 54444,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "FL",
     "year": 2023,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 29.549728146289,
-    "patient_count": 99433,
+    "prevalence_rate": 29.74358801150023,
+    "patient_count": 29302,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "FL",
     "year": 2024,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 34.368894593481286,
-    "patient_count": 40858,
+    "prevalence_rate": 35.482690593194036,
+    "patient_count": 78735,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NY",
     "year": 2020,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 22.13104015847663,
-    "patient_count": 25611,
+    "prevalence_rate": 27.036529655217635,
+    "patient_count": 85845,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NY",
     "year": 2021,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 24.925263211802346,
-    "patient_count": 97263,
+    "prevalence_rate": 25.94792246229205,
+    "patient_count": 90079,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NY",
     "year": 2022,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 26.50116378861609,
-    "patient_count": 36893,
+    "prevalence_rate": 27.119223220661787,
+    "patient_count": 97385,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NY",
     "year": 2023,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 25.960725732397357,
-    "patient_count": 66360,
+    "prevalence_rate": 27.331261371783064,
+    "patient_count": 98569,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NY",
     "year": 2024,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 22.501778438097112,
-    "patient_count": 51799,
+    "prevalence_rate": 23.335797578419523,
+    "patient_count": 65130,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NY",
     "year": 2020,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 31.344623091425632,
-    "patient_count": 77592,
+    "prevalence_rate": 27.404367289484178,
+    "patient_count": 58390,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NY",
     "year": 2021,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 32.904272972190114,
-    "patient_count": 36530,
+    "prevalence_rate": 32.75099723834559,
+    "patient_count": 91826,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NY",
     "year": 2022,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 26.58967284422707,
-    "patient_count": 84454,
+    "prevalence_rate": 27.515362015653807,
+    "patient_count": 54412,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NY",
     "year": 2023,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 32.79187794695066,
-    "patient_count": 85138,
+    "prevalence_rate": 28.931811525288726,
+    "patient_count": 55069,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NY",
     "year": 2024,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 33.15310846921548,
-    "patient_count": 25230,
+    "prevalence_rate": 30.760481557757604,
+    "patient_count": 24195,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NY",
     "year": 2020,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 31.857946184214953,
-    "patient_count": 24923,
+    "prevalence_rate": 32.26364030443435,
+    "patient_count": 43104,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NY",
     "year": 2021,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 37.20867616718296,
-    "patient_count": 67205,
+    "prevalence_rate": 30.274970089287482,
+    "patient_count": 25404,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NY",
     "year": 2022,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 36.21369334853357,
-    "patient_count": 67687,
+    "prevalence_rate": 36.41076262533681,
+    "patient_count": 58289,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NY",
     "year": 2023,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 34.24210248120336,
-    "patient_count": 35709,
+    "prevalence_rate": 35.58148481407677,
+    "patient_count": 25720,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NY",
     "year": 2024,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 30.431919783935903,
-    "patient_count": 41775,
+    "prevalence_rate": 36.78779838187649,
+    "patient_count": 61593,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NY",
     "year": 2020,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 23.692319374310973,
-    "patient_count": 89336,
+    "prevalence_rate": 30.472384362693127,
+    "patient_count": 75812,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NY",
     "year": 2021,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 30.917328133729605,
-    "patient_count": 71505,
+    "prevalence_rate": 28.541710033853704,
+    "patient_count": 36364,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NY",
     "year": 2022,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 29.702500065383404,
-    "patient_count": 87191,
+    "prevalence_rate": 29.47426275040206,
+    "patient_count": 90866,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NY",
     "year": 2023,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 25.182378216351864,
-    "patient_count": 38543,
+    "prevalence_rate": 23.870929191528546,
+    "patient_count": 64742,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NY",
     "year": 2024,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 30.690811271768396,
-    "patient_count": 51722,
+    "prevalence_rate": 24.176064225407444,
+    "patient_count": 80284,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "PA",
     "year": 2020,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 25.443750992483444,
-    "patient_count": 29145,
+    "prevalence_rate": 31.326200685037414,
+    "patient_count": 21028,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "PA",
     "year": 2021,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 31.128465501290517,
-    "patient_count": 69933,
+    "prevalence_rate": 25.373982201522104,
+    "patient_count": 47872,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "PA",
     "year": 2022,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 24.303078123937908,
-    "patient_count": 47670,
+    "prevalence_rate": 26.228445252547004,
+    "patient_count": 47503,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "PA",
     "year": 2023,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 26.003867213245588,
-    "patient_count": 26822,
+    "prevalence_rate": 25.46561068916567,
+    "patient_count": 90568,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "PA",
     "year": 2024,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 26.59443667087287,
-    "patient_count": 26897,
+    "prevalence_rate": 27.89632959514219,
+    "patient_count": 99333,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "PA",
     "year": 2020,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 36.887680982938136,
-    "patient_count": 43037,
+    "prevalence_rate": 31.09198905343363,
+    "patient_count": 80327,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "PA",
     "year": 2021,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 34.775598097800284,
-    "patient_count": 97668,
+    "prevalence_rate": 34.21772732228112,
+    "patient_count": 65112,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "PA",
     "year": 2022,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 36.32603279579034,
-    "patient_count": 70585,
+    "prevalence_rate": 38.33106814399937,
+    "patient_count": 71131,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "PA",
     "year": 2023,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 35.52550373741221,
-    "patient_count": 79123,
+    "prevalence_rate": 35.82409842068469,
+    "patient_count": 30369,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "PA",
     "year": 2024,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 32.119623237094565,
-    "patient_count": 69233,
+    "prevalence_rate": 34.20610796627907,
+    "patient_count": 37514,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "PA",
     "year": 2020,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 38.801797777294205,
-    "patient_count": 90413,
+    "prevalence_rate": 36.642393388235206,
+    "patient_count": 23050,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "PA",
     "year": 2021,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 39.96176030575465,
-    "patient_count": 81577,
+    "prevalence_rate": 37.396104998426615,
+    "patient_count": 78357,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "PA",
     "year": 2022,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 41.10939225666839,
-    "patient_count": 98693,
+    "prevalence_rate": 36.10579658588887,
+    "patient_count": 46518,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "PA",
     "year": 2023,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 43.236955403420346,
-    "patient_count": 63221,
+    "prevalence_rate": 43.00581237520908,
+    "patient_count": 82259,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "PA",
     "year": 2024,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 39.2228279522765,
-    "patient_count": 70176,
+    "prevalence_rate": 36.229669691263126,
+    "patient_count": 55695,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "PA",
     "year": 2020,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 35.09802068984841,
-    "patient_count": 52826,
+    "prevalence_rate": 32.98070708664013,
+    "patient_count": 57340,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "PA",
     "year": 2021,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 34.94490273328164,
-    "patient_count": 27450,
+    "prevalence_rate": 30.524735185640992,
+    "patient_count": 96133,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "PA",
     "year": 2022,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 31.753480620558463,
-    "patient_count": 79343,
+    "prevalence_rate": 30.007503402764915,
+    "patient_count": 44113,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "PA",
     "year": 2023,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 35.30334584530523,
-    "patient_count": 55354,
+    "prevalence_rate": 31.994826744334105,
+    "patient_count": 82990,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "PA",
     "year": 2024,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 35.55615559726496,
-    "patient_count": 56464,
+    "prevalence_rate": 29.66286136003049,
+    "patient_count": 67376,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "IL",
     "year": 2020,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 31.93366572451631,
-    "patient_count": 32171,
+    "prevalence_rate": 25.135339286062596,
+    "patient_count": 81111,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "IL",
     "year": 2021,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 25.75078095152559,
-    "patient_count": 62937,
+    "prevalence_rate": 29.96416697279315,
+    "patient_count": 67729,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "IL",
     "year": 2022,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 25.16666849034762,
-    "patient_count": 22815,
+    "prevalence_rate": 25.00472547962911,
+    "patient_count": 67705,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "IL",
     "year": 2023,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 25.024013566137132,
-    "patient_count": 95271,
+    "prevalence_rate": 26.4606170289279,
+    "patient_count": 87485,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "IL",
     "year": 2024,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 29.048664516133925,
-    "patient_count": 73705,
+    "prevalence_rate": 24.18652783592178,
+    "patient_count": 67580,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "IL",
     "year": 2020,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 36.54824326883985,
-    "patient_count": 96486,
+    "prevalence_rate": 34.424263895170654,
+    "patient_count": 95162,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "IL",
     "year": 2021,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 38.18805278579336,
-    "patient_count": 20123,
+    "prevalence_rate": 34.19304369102341,
+    "patient_count": 96406,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "IL",
     "year": 2022,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 32.19565939954826,
-    "patient_count": 95175,
+    "prevalence_rate": 36.46607993646581,
+    "patient_count": 93698,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "IL",
     "year": 2023,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 33.48688395486169,
-    "patient_count": 75746,
+    "prevalence_rate": 32.370459969704676,
+    "patient_count": 45210,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "IL",
     "year": 2024,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 35.44627900305619,
-    "patient_count": 58490,
+    "prevalence_rate": 32.01559577522942,
+    "patient_count": 44492,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "IL",
     "year": 2020,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 37.01640780984413,
-    "patient_count": 23610,
+    "prevalence_rate": 37.66437469186106,
+    "patient_count": 77183,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "IL",
     "year": 2021,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 41.31870794752351,
-    "patient_count": 76064,
+    "prevalence_rate": 41.705190856690294,
+    "patient_count": 42256,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "IL",
     "year": 2022,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 38.218984001620875,
-    "patient_count": 43520,
+    "prevalence_rate": 36.324933036421484,
+    "patient_count": 84430,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "IL",
     "year": 2023,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 40.64349136063008,
-    "patient_count": 41428,
+    "prevalence_rate": 41.818361753482925,
+    "patient_count": 97513,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "IL",
     "year": 2024,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 36.92052154781592,
-    "patient_count": 41304,
+    "prevalence_rate": 38.327641517954405,
+    "patient_count": 31296,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "IL",
     "year": 2020,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 33.21111488193531,
-    "patient_count": 71670,
+    "prevalence_rate": 33.23510626651213,
+    "patient_count": 50956,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "IL",
     "year": 2021,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 30.199031136110086,
-    "patient_count": 60367,
+    "prevalence_rate": 30.951883893458515,
+    "patient_count": 49504,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "IL",
     "year": 2022,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 29.95080087005534,
-    "patient_count": 32624,
+    "prevalence_rate": 33.994619130332495,
+    "patient_count": 72443,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "IL",
     "year": 2023,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 33.1559473982682,
-    "patient_count": 70205,
+    "prevalence_rate": 29.05484602512181,
+    "patient_count": 50485,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "IL",
     "year": 2024,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 28.798205486961763,
-    "patient_count": 64638,
+    "prevalence_rate": 31.14448179612303,
+    "patient_count": 30559,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "OH",
     "year": 2020,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 28.389943854792485,
-    "patient_count": 31804,
+    "prevalence_rate": 28.597429741483626,
+    "patient_count": 75008,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "OH",
     "year": 2021,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 30.47371732542549,
-    "patient_count": 49641,
+    "prevalence_rate": 33.30502731772873,
+    "patient_count": 38223,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "OH",
     "year": 2022,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 35.16170500243967,
-    "patient_count": 72566,
+    "prevalence_rate": 35.83612787925673,
+    "patient_count": 92306,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "OH",
     "year": 2023,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 31.057119730171273,
-    "patient_count": 91531,
+    "prevalence_rate": 33.0116155071615,
+    "patient_count": 34904,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "OH",
     "year": 2024,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 33.35884123228475,
-    "patient_count": 80636,
+    "prevalence_rate": 30.60666811320929,
+    "patient_count": 57998,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "OH",
     "year": 2020,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 36.51063674425872,
-    "patient_count": 85105,
+    "prevalence_rate": 40.15103080983391,
+    "patient_count": 74340,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "OH",
     "year": 2021,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 38.01795375560216,
-    "patient_count": 80248,
+    "prevalence_rate": 41.70251321530267,
+    "patient_count": 59377,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "OH",
     "year": 2022,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 43.85108856630095,
-    "patient_count": 23885,
+    "prevalence_rate": 41.28637165323839,
+    "patient_count": 81856,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "OH",
     "year": 2023,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 39.31235086425505,
-    "patient_count": 23365,
+    "prevalence_rate": 43.937927793168775,
+    "patient_count": 85629,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "OH",
     "year": 2024,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 43.90827714714801,
-    "patient_count": 95976,
+    "prevalence_rate": 39.83200105511881,
+    "patient_count": 23258,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "OH",
     "year": 2020,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 43.70591181758609,
-    "patient_count": 35453,
+    "prevalence_rate": 42.30623478161291,
+    "patient_count": 86800,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "OH",
     "year": 2021,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 48.85026251083433,
-    "patient_count": 34284,
+    "prevalence_rate": 44.32751806995624,
+    "patient_count": 47369,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "OH",
     "year": 2022,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 46.98662320179435,
-    "patient_count": 71350,
+    "prevalence_rate": 47.922640444390545,
+    "patient_count": 55132,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "OH",
     "year": 2023,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 49.30166895092535,
-    "patient_count": 81626,
+    "prevalence_rate": 43.94597716511802,
+    "patient_count": 59929,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "OH",
     "year": 2024,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 47.3221984165168,
-    "patient_count": 37111,
+    "prevalence_rate": 46.12762143308639,
+    "patient_count": 99321,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "OH",
     "year": 2020,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 35.61863954191854,
-    "patient_count": 98753,
+    "prevalence_rate": 40.339485486260116,
+    "patient_count": 70688,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "OH",
     "year": 2021,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 39.17611714834221,
-    "patient_count": 40374,
+    "prevalence_rate": 32.926902906211936,
+    "patient_count": 63978,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "OH",
     "year": 2022,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 33.19803076359224,
-    "patient_count": 66240,
+    "prevalence_rate": 35.88299533305258,
+    "patient_count": 93501,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "OH",
     "year": 2023,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 38.002443336118404,
-    "patient_count": 34075,
+    "prevalence_rate": 39.67049419538377,
+    "patient_count": 49356,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "OH",
     "year": 2024,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 38.53653434545039,
-    "patient_count": 45557,
+    "prevalence_rate": 39.1146279313779,
+    "patient_count": 46160,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "GA",
     "year": 2020,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 32.39347337232418,
-    "patient_count": 54895,
+    "prevalence_rate": 32.439848248821306,
+    "patient_count": 61279,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "GA",
     "year": 2021,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 35.5735456557284,
-    "patient_count": 69824,
+    "prevalence_rate": 32.200335230399986,
+    "patient_count": 32424,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "GA",
     "year": 2022,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 28.32654441794067,
-    "patient_count": 34722,
+    "prevalence_rate": 31.60226725907753,
+    "patient_count": 54980,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "GA",
     "year": 2023,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 32.21837412836342,
-    "patient_count": 91240,
+    "prevalence_rate": 28.424524512894067,
+    "patient_count": 42481,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "GA",
     "year": 2024,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 29.685507297908316,
-    "patient_count": 37914,
+    "prevalence_rate": 34.48678182493281,
+    "patient_count": 25787,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "GA",
     "year": 2020,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 36.88741112778871,
-    "patient_count": 67335,
+    "prevalence_rate": 42.350470634630014,
+    "patient_count": 79874,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "GA",
     "year": 2021,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 40.04899785873676,
-    "patient_count": 84235,
+    "prevalence_rate": 38.833664111841856,
+    "patient_count": 83732,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "GA",
     "year": 2022,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 42.716672401672525,
-    "patient_count": 59899,
+    "prevalence_rate": 44.135279078166846,
+    "patient_count": 60579,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "GA",
     "year": 2023,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 43.79429268896696,
-    "patient_count": 71515,
+    "prevalence_rate": 39.7903433321762,
+    "patient_count": 21159,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "GA",
     "year": 2024,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 40.887876279108674,
-    "patient_count": 50614,
+    "prevalence_rate": 38.13216048020707,
+    "patient_count": 94585,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "GA",
     "year": 2020,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 45.53730918721777,
-    "patient_count": 70719,
+    "prevalence_rate": 46.15427430896312,
+    "patient_count": 48894,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "GA",
     "year": 2021,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 49.450142134376705,
-    "patient_count": 55313,
+    "prevalence_rate": 48.62905411690443,
+    "patient_count": 86601,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "GA",
     "year": 2022,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 42.65543703593657,
-    "patient_count": 78759,
+    "prevalence_rate": 45.96880482973501,
+    "patient_count": 91369,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "GA",
     "year": 2023,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 43.698869342503016,
-    "patient_count": 45679,
+    "prevalence_rate": 45.70765393141279,
+    "patient_count": 99506,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "GA",
     "year": 2024,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 48.62600201545091,
-    "patient_count": 31760,
+    "prevalence_rate": 42.083955326604055,
+    "patient_count": 74900,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "GA",
     "year": 2020,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 38.528745724943136,
-    "patient_count": 42763,
+    "prevalence_rate": 33.056254811578526,
+    "patient_count": 82997,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "GA",
     "year": 2021,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 36.179954888233425,
-    "patient_count": 74397,
+    "prevalence_rate": 34.834898710368506,
+    "patient_count": 37796,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "GA",
     "year": 2022,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 39.286842206427416,
-    "patient_count": 43317,
+    "prevalence_rate": 39.128429890523975,
+    "patient_count": 87947,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "GA",
     "year": 2023,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 34.74914696863927,
-    "patient_count": 61276,
+    "prevalence_rate": 33.60912784499303,
+    "patient_count": 38166,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "GA",
     "year": 2024,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 33.10758066332686,
-    "patient_count": 25435,
+    "prevalence_rate": 39.34429621504754,
+    "patient_count": 92126,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NC",
     "year": 2020,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 25.25779551472683,
-    "patient_count": 50093,
+    "prevalence_rate": 31.290251608686937,
+    "patient_count": 36602,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NC",
     "year": 2021,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 30.676437965924137,
-    "patient_count": 44357,
+    "prevalence_rate": 31.411223595059685,
+    "patient_count": 90769,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NC",
     "year": 2022,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 27.94447317133502,
-    "patient_count": 21588,
+    "prevalence_rate": 30.87819654967246,
+    "patient_count": 98023,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NC",
     "year": 2023,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 27.080952740208886,
-    "patient_count": 36536,
+    "prevalence_rate": 30.77179526173388,
+    "patient_count": 40386,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NC",
     "year": 2024,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 24.53666999682327,
-    "patient_count": 80498,
+    "prevalence_rate": 30.648603727341847,
+    "patient_count": 61228,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NC",
     "year": 2020,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 37.20173558128323,
-    "patient_count": 74604,
+    "prevalence_rate": 36.180931042500724,
+    "patient_count": 87243,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NC",
     "year": 2021,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 32.1217501579898,
-    "patient_count": 42807,
+    "prevalence_rate": 36.68019273551526,
+    "patient_count": 73258,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NC",
     "year": 2022,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 32.930928553758584,
-    "patient_count": 44735,
+    "prevalence_rate": 38.40171713922609,
+    "patient_count": 70338,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NC",
     "year": 2023,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 35.16711041223245,
-    "patient_count": 61403,
+    "prevalence_rate": 32.41240442168294,
+    "patient_count": 28732,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NC",
     "year": 2024,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 36.83442567134698,
-    "patient_count": 75326,
+    "prevalence_rate": 33.3058199846777,
+    "patient_count": 64650,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NC",
     "year": 2020,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 39.390397458425994,
-    "patient_count": 20527,
+    "prevalence_rate": 37.26598161334727,
+    "patient_count": 37493,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NC",
     "year": 2021,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 37.09899550296569,
-    "patient_count": 77752,
+    "prevalence_rate": 40.70258382341071,
+    "patient_count": 43482,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NC",
     "year": 2022,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 39.3296034022685,
-    "patient_count": 64255,
+    "prevalence_rate": 40.64633492359467,
+    "patient_count": 80880,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NC",
     "year": 2023,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 40.42192594174296,
-    "patient_count": 21512,
+    "prevalence_rate": 42.9205260688198,
+    "patient_count": 59867,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NC",
     "year": 2024,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 40.97076519681084,
-    "patient_count": 50344,
+    "prevalence_rate": 41.34327223936911,
+    "patient_count": 51401,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NC",
     "year": 2020,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 35.81674958829278,
-    "patient_count": 20644,
+    "prevalence_rate": 34.39965439695255,
+    "patient_count": 80227,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NC",
     "year": 2021,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 35.474964227989005,
-    "patient_count": 70438,
+    "prevalence_rate": 32.99181134927767,
+    "patient_count": 76273,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NC",
     "year": 2022,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 31.43076623832803,
-    "patient_count": 93739,
+    "prevalence_rate": 33.00073580318236,
+    "patient_count": 70844,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NC",
     "year": 2023,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 29.512344086001136,
-    "patient_count": 95211,
+    "prevalence_rate": 29.667818277774437,
+    "patient_count": 95689,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "NC",
     "year": 2024,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 29.55990022843858,
-    "patient_count": 27886,
+    "prevalence_rate": 28.552217329858678,
+    "patient_count": 57432,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MI",
     "year": 2020,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 30.502091961672143,
-    "patient_count": 40741,
+    "prevalence_rate": 32.49999727002873,
+    "patient_count": 55727,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MI",
     "year": 2021,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 29.73553126319579,
-    "patient_count": 85477,
+    "prevalence_rate": 29.801877959571,
+    "patient_count": 66828,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MI",
     "year": 2022,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 35.68650079670012,
-    "patient_count": 33572,
+    "prevalence_rate": 36.016916811272665,
+    "patient_count": 89675,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MI",
     "year": 2023,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 29.74943271509987,
-    "patient_count": 71667,
+    "prevalence_rate": 32.43155750233722,
+    "patient_count": 42692,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MI",
     "year": 2024,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 33.52626366129469,
-    "patient_count": 69960,
+    "prevalence_rate": 34.45525954317461,
+    "patient_count": 50140,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MI",
     "year": 2020,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 37.779901524481126,
-    "patient_count": 95048,
+    "prevalence_rate": 36.968922374200844,
+    "patient_count": 62189,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MI",
     "year": 2021,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 42.40134336060344,
-    "patient_count": 37327,
+    "prevalence_rate": 38.963577057554815,
+    "patient_count": 89059,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MI",
     "year": 2022,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 44.216745426106044,
-    "patient_count": 95498,
+    "prevalence_rate": 41.1862288410346,
+    "patient_count": 78943,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MI",
     "year": 2023,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 39.75875711138491,
-    "patient_count": 21311,
+    "prevalence_rate": 39.46711432148068,
+    "patient_count": 90386,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MI",
     "year": 2024,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 41.879936934875005,
-    "patient_count": 21852,
+    "prevalence_rate": 42.096843946142535,
+    "patient_count": 96140,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MI",
     "year": 2020,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 44.98242848631206,
-    "patient_count": 64748,
+    "prevalence_rate": 47.0312642222165,
+    "patient_count": 33891,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MI",
     "year": 2021,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 43.12194533513261,
-    "patient_count": 28687,
+    "prevalence_rate": 49.21281091770727,
+    "patient_count": 50231,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MI",
     "year": 2022,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 46.994249969643406,
-    "patient_count": 67691,
+    "prevalence_rate": 46.17207624000586,
+    "patient_count": 76571,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MI",
     "year": 2023,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 45.64784570025324,
-    "patient_count": 98231,
+    "prevalence_rate": 45.62494875295148,
+    "patient_count": 51468,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MI",
     "year": 2024,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 48.620976795248865,
-    "patient_count": 60590,
+    "prevalence_rate": 44.010686245203644,
+    "patient_count": 31978,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MI",
     "year": 2020,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 39.445054364929696,
-    "patient_count": 79131,
+    "prevalence_rate": 40.38814199573217,
+    "patient_count": 54104,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MI",
     "year": 2021,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 38.49112384135141,
-    "patient_count": 43517,
+    "prevalence_rate": 38.50705524575964,
+    "patient_count": 87462,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MI",
     "year": 2022,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 39.352175689366085,
-    "patient_count": 89765,
+    "prevalence_rate": 38.36753332691946,
+    "patient_count": 50036,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MI",
     "year": 2023,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 38.36699632410248,
-    "patient_count": 96473,
+    "prevalence_rate": 36.013134485837014,
+    "patient_count": 29126,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MI",
     "year": 2024,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 36.24650283773202,
-    "patient_count": 89446,
+    "prevalence_rate": 36.086800454497464,
+    "patient_count": 37404,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "AZ",
     "year": 2020,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 30.34553192365923,
-    "patient_count": 49483,
+    "prevalence_rate": 31.286150662998153,
+    "patient_count": 25735,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "AZ",
     "year": 2021,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 30.735524426670075,
-    "patient_count": 61972,
+    "prevalence_rate": 30.42086526014652,
+    "patient_count": 40788,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "AZ",
     "year": 2022,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 25.694268613845484,
-    "patient_count": 94855,
+    "prevalence_rate": 28.784071053919124,
+    "patient_count": 73111,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "AZ",
     "year": 2023,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 30.17291651745999,
-    "patient_count": 83540,
+    "prevalence_rate": 27.840741433276776,
+    "patient_count": 54300,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "AZ",
     "year": 2024,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 26.96548466842912,
-    "patient_count": 78426,
+    "prevalence_rate": 25.049807752428137,
+    "patient_count": 49833,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "AZ",
     "year": 2020,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 38.9625159310922,
-    "patient_count": 60734,
+    "prevalence_rate": 37.45912808317145,
+    "patient_count": 93507,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "AZ",
     "year": 2021,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 33.40017908944104,
-    "patient_count": 43414,
+    "prevalence_rate": 38.80669675895858,
+    "patient_count": 50932,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "AZ",
     "year": 2022,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 35.51253756234742,
-    "patient_count": 98098,
+    "prevalence_rate": 37.84170938197214,
+    "patient_count": 74162,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "AZ",
     "year": 2023,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 36.73583304143563,
-    "patient_count": 57190,
+    "prevalence_rate": 31.280120370098054,
+    "patient_count": 27169,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "AZ",
     "year": 2024,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 36.08951033029582,
-    "patient_count": 50248,
+    "prevalence_rate": 32.150088529258646,
+    "patient_count": 26061,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "AZ",
     "year": 2020,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 42.98631011545709,
-    "patient_count": 30886,
+    "prevalence_rate": 40.38234971307102,
+    "patient_count": 77479,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "AZ",
     "year": 2021,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 36.542698785773524,
-    "patient_count": 66201,
+    "prevalence_rate": 38.65986960681995,
+    "patient_count": 24046,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "AZ",
     "year": 2022,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 37.35213819819686,
-    "patient_count": 64895,
+    "prevalence_rate": 39.99901881104937,
+    "patient_count": 58284,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "AZ",
     "year": 2023,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 38.72160430243585,
-    "patient_count": 30790,
+    "prevalence_rate": 38.42110374588642,
+    "patient_count": 93557,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "AZ",
     "year": 2024,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 40.58134451151722,
-    "patient_count": 86596,
+    "prevalence_rate": 36.61998530405842,
+    "patient_count": 51692,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "AZ",
     "year": 2020,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 31.060024404579778,
-    "patient_count": 72238,
+    "prevalence_rate": 30.158907129103195,
+    "patient_count": 99029,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "AZ",
     "year": 2021,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 34.766297453197986,
-    "patient_count": 34160,
+    "prevalence_rate": 34.66347830294306,
+    "patient_count": 42342,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "AZ",
     "year": 2022,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 34.211118888275905,
-    "patient_count": 75919,
+    "prevalence_rate": 32.252218344594496,
+    "patient_count": 35089,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "AZ",
     "year": 2023,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 35.45972977028758,
-    "patient_count": 96593,
+    "prevalence_rate": 34.8951705880208,
+    "patient_count": 68684,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "AZ",
     "year": 2024,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 30.037617067276486,
-    "patient_count": 25045,
+    "prevalence_rate": 31.594695286490143,
+    "patient_count": 80353,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "WA",
     "year": 2020,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 26.01810778946112,
-    "patient_count": 87486,
+    "prevalence_rate": 22.07985673667606,
+    "patient_count": 38874,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "WA",
     "year": 2021,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 27.70409176752486,
-    "patient_count": 87939,
+    "prevalence_rate": 21.933144560556208,
+    "patient_count": 48728,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "WA",
     "year": 2022,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 21.30443275881292,
-    "patient_count": 48042,
+    "prevalence_rate": 25.496545280146364,
+    "patient_count": 83007,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "WA",
     "year": 2023,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 23.57523142598498,
-    "patient_count": 74099,
+    "prevalence_rate": 22.4209260673966,
+    "patient_count": 26923,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "WA",
     "year": 2024,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 21.357080164596766,
-    "patient_count": 56940,
+    "prevalence_rate": 21.822882481140965,
+    "patient_count": 57290,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "WA",
     "year": 2020,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 31.782334830361094,
-    "patient_count": 33690,
+    "prevalence_rate": 32.48344695788287,
+    "patient_count": 35174,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "WA",
     "year": 2021,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 33.01477719376165,
-    "patient_count": 57423,
+    "prevalence_rate": 30.479437293959446,
+    "patient_count": 90501,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "WA",
     "year": 2022,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 28.081594307508396,
-    "patient_count": 39095,
+    "prevalence_rate": 32.76933153839435,
+    "patient_count": 42195,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "WA",
     "year": 2023,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 27.743737490087536,
-    "patient_count": 25542,
+    "prevalence_rate": 26.32180090930348,
+    "patient_count": 54128,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "WA",
     "year": 2024,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 31.285170194938512,
-    "patient_count": 38733,
+    "prevalence_rate": 29.045652471660933,
+    "patient_count": 95846,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "WA",
     "year": 2020,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 34.06222252244342,
-    "patient_count": 51778,
+    "prevalence_rate": 34.45386226949951,
+    "patient_count": 49366,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "WA",
     "year": 2021,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 36.42012802227315,
-    "patient_count": 66742,
+    "prevalence_rate": 36.43279468510218,
+    "patient_count": 54379,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "WA",
     "year": 2022,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 35.87197483712133,
-    "patient_count": 36855,
+    "prevalence_rate": 31.881614327145996,
+    "patient_count": 88235,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "WA",
     "year": 2023,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 32.20153120337837,
-    "patient_count": 75130,
+    "prevalence_rate": 31.95306763080945,
+    "patient_count": 45159,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "WA",
     "year": 2024,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 31.952895911033615,
-    "patient_count": 22784,
+    "prevalence_rate": 30.7933869049618,
+    "patient_count": 51812,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "WA",
     "year": 2020,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 31.183170307718537,
-    "patient_count": 70757,
+    "prevalence_rate": 24.208655894216204,
+    "patient_count": 98668,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "WA",
     "year": 2021,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 25.532277379408796,
-    "patient_count": 52649,
+    "prevalence_rate": 25.094016174146248,
+    "patient_count": 75635,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "WA",
     "year": 2022,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 29.6577664602334,
-    "patient_count": 35673,
+    "prevalence_rate": 30.73630781072074,
+    "patient_count": 98086,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "WA",
     "year": 2023,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 29.80846823440641,
-    "patient_count": 50649,
+    "prevalence_rate": 26.451890543005007,
+    "patient_count": 33940,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "WA",
     "year": 2024,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 24.46354274529619,
-    "patient_count": 76684,
+    "prevalence_rate": 27.527150162008613,
+    "patient_count": 67218,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TN",
     "year": 2020,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 29.45516482117751,
-    "patient_count": 71043,
+    "prevalence_rate": 32.174999794074026,
+    "patient_count": 29114,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TN",
     "year": 2021,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 35.04232551430091,
-    "patient_count": 24427,
+    "prevalence_rate": 28.74653878283481,
+    "patient_count": 87012,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TN",
     "year": 2022,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 29.617160010075903,
-    "patient_count": 88524,
+    "prevalence_rate": 33.83866086075654,
+    "patient_count": 67437,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TN",
     "year": 2023,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 29.267221478454285,
-    "patient_count": 79601,
+    "prevalence_rate": 30.689342138339796,
+    "patient_count": 83437,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TN",
     "year": 2024,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 34.90819977750533,
-    "patient_count": 41483,
+    "prevalence_rate": 34.16759341519942,
+    "patient_count": 66011,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TN",
     "year": 2020,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 41.49003525719648,
-    "patient_count": 41271,
+    "prevalence_rate": 36.463423889567544,
+    "patient_count": 38711,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TN",
     "year": 2021,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 43.497991577958196,
-    "patient_count": 36037,
+    "prevalence_rate": 40.928250940520726,
+    "patient_count": 74742,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TN",
     "year": 2022,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 43.12389474840446,
-    "patient_count": 45809,
+    "prevalence_rate": 39.7864811856388,
+    "patient_count": 30082,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TN",
     "year": 2023,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 40.56829453746785,
-    "patient_count": 71747,
+    "prevalence_rate": 43.45916625799252,
+    "patient_count": 91369,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TN",
     "year": 2024,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 38.47516384924585,
-    "patient_count": 64202,
+    "prevalence_rate": 42.98267062617593,
+    "patient_count": 92606,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TN",
     "year": 2020,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 49.05459229638674,
-    "patient_count": 32005,
+    "prevalence_rate": 45.14827476295062,
+    "patient_count": 51304,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TN",
     "year": 2021,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 45.339704204511264,
-    "patient_count": 87623,
+    "prevalence_rate": 44.08544565052124,
+    "patient_count": 98023,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TN",
     "year": 2022,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 43.31690368288799,
-    "patient_count": 44641,
+    "prevalence_rate": 46.5545919656602,
+    "patient_count": 66738,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TN",
     "year": 2023,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 47.15094828667723,
-    "patient_count": 23672,
+    "prevalence_rate": 48.754279956403145,
+    "patient_count": 37264,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TN",
     "year": 2024,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 45.009084520380625,
-    "patient_count": 36554,
+    "prevalence_rate": 42.9936503799342,
+    "patient_count": 42058,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TN",
     "year": 2020,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 36.90447391827147,
-    "patient_count": 55260,
+    "prevalence_rate": 33.66799074190247,
+    "patient_count": 88650,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TN",
     "year": 2021,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 39.8374642114641,
-    "patient_count": 99019,
+    "prevalence_rate": 37.974608610552764,
+    "patient_count": 58193,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TN",
     "year": 2022,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 39.52580603823528,
-    "patient_count": 70906,
+    "prevalence_rate": 34.54417105482762,
+    "patient_count": 94390,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TN",
     "year": 2023,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 36.07396308298071,
-    "patient_count": 72386,
+    "prevalence_rate": 40.08234786103963,
+    "patient_count": 44821,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "TN",
     "year": 2024,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 39.479199318794485,
-    "patient_count": 83260,
+    "prevalence_rate": 36.25239809197245,
+    "patient_count": 48115,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MA",
     "year": 2020,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 20.8250771013064,
-    "patient_count": 91172,
+    "prevalence_rate": 23.011524312481406,
+    "patient_count": 26179,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MA",
     "year": 2021,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 21.871421151118376,
-    "patient_count": 89057,
+    "prevalence_rate": 24.57773278162247,
+    "patient_count": 73545,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MA",
     "year": 2022,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 25.13777637962788,
-    "patient_count": 29581,
+    "prevalence_rate": 23.072858005025616,
+    "patient_count": 77098,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MA",
     "year": 2023,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 22.56339428143543,
-    "patient_count": 45363,
+    "prevalence_rate": 27.59230132452774,
+    "patient_count": 63769,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MA",
     "year": 2024,
     "age_group": "18-34",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 21.598179808286428,
-    "patient_count": 93098,
+    "prevalence_rate": 27.69145997846983,
+    "patient_count": 85675,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MA",
     "year": 2020,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 31.143653381502734,
-    "patient_count": 58493,
+    "prevalence_rate": 29.783569036953416,
+    "patient_count": 53747,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MA",
     "year": 2021,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 27.11710070087956,
-    "patient_count": 32315,
+    "prevalence_rate": 33.575614990781126,
+    "patient_count": 63304,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MA",
     "year": 2022,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 31.06125416283807,
-    "patient_count": 98178,
+    "prevalence_rate": 33.724697648678514,
+    "patient_count": 27255,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MA",
     "year": 2023,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 32.68727660961732,
-    "patient_count": 35035,
+    "prevalence_rate": 27.553405589220944,
+    "patient_count": 47417,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MA",
     "year": 2024,
     "age_group": "35-49",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 29.7378812525371,
-    "patient_count": 95472,
+    "prevalence_rate": 31.67874701206585,
+    "patient_count": 98503,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MA",
     "year": 2020,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 31.407073628525275,
-    "patient_count": 34649,
+    "prevalence_rate": 33.897691943566116,
+    "patient_count": 77231,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MA",
     "year": 2021,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 36.205250521995865,
-    "patient_count": 23015,
+    "prevalence_rate": 32.13267189129197,
+    "patient_count": 89499,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MA",
     "year": 2022,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 30.689051483693355,
-    "patient_count": 46645,
+    "prevalence_rate": 35.32699793643657,
+    "patient_count": 43240,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MA",
     "year": 2023,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 31.879570482035,
-    "patient_count": 37328,
+    "prevalence_rate": 32.49411743844253,
+    "patient_count": 69300,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MA",
     "year": 2024,
     "age_group": "50-64",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 35.844097794324654,
-    "patient_count": 86160,
+    "prevalence_rate": 34.605052237655386,
+    "patient_count": 75479,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MA",
     "year": 2020,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 24.186101594673488,
-    "patient_count": 99611,
+    "prevalence_rate": 28.3221156166341,
+    "patient_count": 81468,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MA",
     "year": 2021,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 28.604346755700575,
-    "patient_count": 81595,
+    "prevalence_rate": 28.761007345691027,
+    "patient_count": 87966,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MA",
     "year": 2022,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 24.715884732486696,
-    "patient_count": 49707,
+    "prevalence_rate": 27.83869952035301,
+    "patient_count": 83138,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MA",
     "year": 2023,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 27.53007039545168,
-    "patient_count": 73826,
+    "prevalence_rate": 26.759031663823567,
+    "patient_count": 97367,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   },
   {
     "geography": "MA",
     "year": 2024,
     "age_group": "65+",
     "condition": "Obesity (BMI ≥30)",
-    "prevalence_rate": 25.522730470024484,
-    "patient_count": 45848,
+    "prevalence_rate": 23.42302675741791,
+    "patient_count": 61942,
     "bmi_category": "Obese",
     "source": "Epic Cosmos",
-    "last_updated": "2025-07-02"
+    "last_updated": "2025-07-24"
   }
 ]

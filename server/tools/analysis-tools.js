@@ -26,10 +26,8 @@ export class AnalysisTools {
       // Apply date range filter
       if (start_date || end_date) {
         filtered = filtered.filter(row => {
-          const rowDate = row.date || row.year;
-          if (!rowDate) return true;
-          
-          const date = typeof rowDate === 'string' ? parseISO(rowDate) : new Date(rowDate, 0, 1);
+          const date = this.parseRowDate(row);
+          if (!date) return true;
           
           if (start_date && isBefore(date, parseISO(start_date))) return false;
           if (end_date && isAfter(date, parseISO(end_date))) return false;
@@ -53,7 +51,8 @@ export class AnalysisTools {
         filtered = filtered.filter(row => 
           (row.condition && row.condition.toLowerCase().includes(condition.toLowerCase())) ||
           (row.vaccine && row.vaccine.toLowerCase().includes(condition.toLowerCase())) ||
-          (row.virus && row.virus.toLowerCase().includes(condition.toLowerCase()))
+          (row.virus && row.virus.toLowerCase().includes(condition.toLowerCase())) ||
+          (row.intent && row.intent.toLowerCase().includes(condition.toLowerCase()))
         );
         filters.push(`Condition/Metric: ${condition}`);
       }
@@ -148,13 +147,11 @@ export class AnalysisTools {
       // Filter by date range
       if (start_date || end_date) {
         data = data.filter(row => {
-          const rowDate = row.date || row.year;
+          const rowDate = this.parseRowDate(row);
           if (!rowDate) return true;
           
-          const date = typeof rowDate === 'string' ? parseISO(rowDate) : new Date(rowDate, 0, 1);
-          
-          if (start_date && isBefore(date, parseISO(start_date))) return false;
-          if (end_date && isAfter(date, parseISO(end_date))) return false;
+          if (start_date && isBefore(rowDate, parseISO(start_date))) return false;
+          if (end_date && isAfter(rowDate, parseISO(end_date))) return false;
           return true;
         });
       }
@@ -365,31 +362,26 @@ export class AnalysisTools {
     
     data.forEach(row => {
       const value = this.extractMetricValue(row, metric);
-      if (value === null) return;
+      const date = this.parseRowDate(row);
+
+      if (value === null || !date) return;
       
       let timeKey;
-      if (row.date) {
-        const date = parseISO(row.date);
-        switch (aggregation) {
-          case 'weekly':
-            timeKey = format(date, 'yyyy-ww');
-            break;
-          case 'monthly':
-            timeKey = format(date, 'yyyy-MM');
-            break;
-          case 'quarterly':
-            timeKey = `${date.getFullYear()}-Q${Math.ceil((date.getMonth() + 1) / 3)}`;
-            break;
-          case 'yearly':
-            timeKey = format(date, 'yyyy');
-            break;
-          default:
-            timeKey = format(date, 'yyyy-MM');
-        }
-      } else if (row.year) {
-        timeKey = row.year.toString();
-      } else {
-        return;
+      switch (aggregation) {
+        case 'weekly':
+          timeKey = format(date, 'yyyy-ww');
+          break;
+        case 'monthly':
+          timeKey = format(date, 'yyyy-MM');
+          break;
+        case 'quarterly':
+          timeKey = `${date.getFullYear()}-Q${Math.ceil((date.getMonth() + 1) / 3)}`;
+          break;
+        case 'yearly':
+          timeKey = format(date, 'yyyy');
+          break;
+        default:
+          timeKey = format(date, 'yyyy-MM');
       }
       
       if (!timePoints[timeKey]) {
@@ -459,6 +451,24 @@ export class AnalysisTools {
     const standardDeviation = Math.sqrt(variance);
     
     return (standardDeviation / mean) * 100; // Coefficient of variation as percentage
+  }
+
+  parseRowDate(row) {
+    const dateValue = row.date || row.year;
+    if (!dateValue) return null;
+
+    if (typeof dateValue === 'number') { // Handle year numbers
+      return new Date(dateValue, 0, 1);
+    }
+
+    if (typeof dateValue === 'string') {
+      if (dateValue.length === 4) { // Handle year strings
+        return new Date(parseInt(dateValue), 0, 1);
+      }
+      return parseISO(dateValue); // Handle ISO date strings
+    }
+
+    return null;
   }
 
   // Formatting methods

@@ -1,7 +1,6 @@
 import axios from 'axios';
 import * as cheerio from 'cheerio';
-import fs from 'fs/promises';
-import path from 'path';
+import { saveData } from '../utils/file-saver.js';
 
 export class ChronicDiseasesScraper {
   constructor(dataDir) {
@@ -65,8 +64,8 @@ export class ChronicDiseasesScraper {
       }
 
       // Save the scraped data
-      await this.saveData('chronic_obesity.json', obesityData);
-      await this.saveData('chronic_diabetes.json', diabetesData);
+      await saveData(this.dataDir, 'chronic_obesity.json', obesityData);
+      await saveData(this.dataDir, 'chronic_diabetes.json', diabetesData);
 
       console.error(`Chronic diseases data scraped: ${obesityData.length} obesity records, ${diabetesData.length} diabetes records`);
       
@@ -81,8 +80,8 @@ export class ChronicDiseasesScraper {
       const obesityData = this.generateSampleObesityData();
       const diabetesData = this.generateSampleDiabetesData();
       
-      await this.saveData('chronic_obesity.json', obesityData);
-      await this.saveData('chronic_diabetes.json', diabetesData);
+      await saveData(this.dataDir, 'chronic_obesity.json', obesityData);
+      await saveData(this.dataDir, 'chronic_diabetes.json', diabetesData);
       
       return {
         obesity: obesityData,
@@ -363,14 +362,4 @@ export class ChronicDiseasesScraper {
     return data;
   }
 
-  async saveData(filename, data) {
-    try {
-      await fs.mkdir(this.dataDir, { recursive: true });
-      const filepath = path.join(this.dataDir, filename);
-      await fs.writeFile(filepath, JSON.stringify(data, null, 2));
-      console.error(`Saved ${data.length} records to ${filename}`);
-    } catch (error) {
-      console.error(`Error saving ${filename}:`, error.message);
-    }
-  }
 }

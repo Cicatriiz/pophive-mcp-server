@@ -1,7 +1,6 @@
 import axios from 'axios';
 import * as cheerio from 'cheerio';
-import fs from 'fs/promises';
-import path from 'path';
+import { saveData } from '../utils/file-saver.js';
 
 export class RespiratoryScraper {
   constructor(dataDir) {
@@ -87,10 +86,10 @@ export class RespiratoryScraper {
       }
 
       // Save the scraped data
-      await this.saveData('respiratory_ed.json', edData);
-      await this.saveData('respiratory_lab.json', labData);
-      await this.saveData('respiratory_wastewater.json', wastewaterData);
-      await this.saveData('respiratory_trends.json', trendsData);
+      await saveData(this.dataDir, 'respiratory_ed.json', edData);
+      await saveData(this.dataDir, 'respiratory_lab.json', labData);
+      await saveData(this.dataDir, 'respiratory_wastewater.json', wastewaterData);
+      await saveData(this.dataDir, 'respiratory_trends.json', trendsData);
 
       console.error(`Respiratory data scraped: ${edData.length} ED records, ${labData.length} lab records, ${wastewaterData.length} wastewater records, ${trendsData.length} trends records`);
       
@@ -109,10 +108,10 @@ export class RespiratoryScraper {
       const wastewaterData = this.generateSampleWastewaterData();
       const trendsData = this.generateSampleTrendsData();
       
-      await this.saveData('respiratory_ed.json', edData);
-      await this.saveData('respiratory_lab.json', labData);
-      await this.saveData('respiratory_wastewater.json', wastewaterData);
-      await this.saveData('respiratory_trends.json', trendsData);
+      await saveData(this.dataDir, 'respiratory_ed.json', edData);
+      await saveData(this.dataDir, 'respiratory_lab.json', labData);
+      await saveData(this.dataDir, 'respiratory_wastewater.json', wastewaterData);
+      await saveData(this.dataDir, 'respiratory_trends.json', trendsData);
       
       return {
         ed: edData,
@@ -540,14 +539,4 @@ export class RespiratoryScraper {
     return data;
   }
 
-  async saveData(filename, data) {
-    try {
-      await fs.mkdir(this.dataDir, { recursive: true });
-      const filepath = path.join(this.dataDir, filename);
-      await fs.writeFile(filepath, JSON.stringify(data, null, 2));
-      console.error(`Saved ${data.length} records to ${filename}`);
-    } catch (error) {
-      console.error(`Error saving ${filename}:`, error.message);
-    }
-  }
 }

@@ -13,7 +13,10 @@ export class DataLoader {
       'respiratory_wastewater': 'respiratory_wastewater.json',
       'respiratory_trends': 'respiratory_trends.json',
       'chronic_obesity': 'chronic_obesity.json',
-      'chronic_diabetes': 'chronic_diabetes.json'
+      'chronic_diabetes': 'chronic_diabetes.json',
+      'hospital_capacity': 'hospital_capacity.json',
+      'injury_overdose': 'injury_overdose.json',
+      'youth_ed_mental_health': 'youth_ed_mental_health.json'
     };
   }
 
@@ -283,6 +286,43 @@ export class DataLoader {
           patient_count: 34567,
           source: "Epic Cosmos"
         }
+      ],
+      'hospital_capacity': [
+        {
+          geography: 'US',
+          date: '2023-10-01',
+          inpatient_beds: 850000,
+          inpatient_beds_used: 650000,
+          inpatient_beds_used_covid: 25000,
+          bed_utilization: 0.76,
+          icu_utilization: 0.68,
+          covid_icu_utilization: 0.12,
+          deaths_covid: 350,
+          critical_staffing_shortage_today_yes: 5,
+          source: 'HHS Hospital Capacity (Sample)'
+        }
+      ],
+      'injury_overdose': [
+        {
+          geography: 'USA',
+          date: '2023-12-01',
+          intent: 'Drug_OD',
+          value: 107543,
+          rate: 32.5,
+          time_period: '12 month-ending',
+          source: 'CDC Mapping Injury, Overdose, and Violence (Sample)'
+        }
+      ],
+      'youth_ed_mental_health': [
+        {
+          geography: 'USA',
+          date: '2023-12-01',
+          condition: 'Anxiety Disorders',
+          demographics_type: 'Age',
+          demographics_values: '12-17 years',
+          rate_per_100000_visits: 450.5,
+          source: 'CDC NSSP (Sample)'
+        }
       ]
     };
 
@@ -323,7 +363,7 @@ export class DataLoader {
         geographic_level: 'State',
         geographic_granularity: ['national', 'state'],
         supported_geographies: geographies.length > 0 ? geographies : ['US', 'CA', 'TX', 'FL', 'NY', 'PA', 'IL', 'OH', 'GA', 'NC'],
-        time_range: '2019-2024',
+        time_range: dateRange.min ? `${dateRange.min} to ${dateRange.max}` : 'N/A',
         date_range_actual: dateRange,
         key_metrics: ['coverage_rate', 'sample_size'],
         supported_filters: ['state', 'geography', 'vaccine', 'age_group', 'year'],
@@ -339,7 +379,7 @@ export class DataLoader {
         geographic_level: 'State',
         geographic_granularity: ['national', 'state'],
         supported_geographies: geographies.length > 0 ? geographies : ['US', 'CA', 'TX', 'FL', 'NY'],
-        time_range: '2020-2024',
+        time_range: dateRange.min ? `${dateRange.min} to ${dateRange.max}` : 'N/A',
         date_range_actual: dateRange,
         key_metrics: ['coverage_rate', 'patient_count'],
         supported_filters: ['state', 'geography', 'vaccine', 'insurance_type', 'urbanicity', 'year'],
@@ -355,7 +395,7 @@ export class DataLoader {
         geographic_level: 'State/County',
         geographic_granularity: ['national', 'state'],
         supported_geographies: geographies.length > 0 ? geographies : ['US', 'CA', 'TX', 'FL', 'NY'],
-        time_range: '2020-2024',
+        time_range: dateRange.min ? `${dateRange.min} to ${dateRange.max}` : 'N/A',
         date_range_actual: dateRange,
         key_metrics: ['ed_visits', 'ed_visits_per_100k', 'percent_change'],
         supported_filters: ['state', 'geography', 'virus', 'date', 'week', 'age_group'],
@@ -371,7 +411,7 @@ export class DataLoader {
         geographic_level: 'National/Regional',
         geographic_granularity: ['national'],
         supported_geographies: geographies.length > 0 ? geographies : ['US'],
-        time_range: '2020-2024',
+        time_range: dateRange.min ? `${dateRange.min} to ${dateRange.max}` : 'N/A',
         date_range_actual: dateRange,
         key_metrics: ['positivity_rate', 'tests_positive', 'total_tests'],
         supported_filters: ['geography', 'virus', 'date', 'week'],
@@ -387,7 +427,7 @@ export class DataLoader {
         geographic_level: 'Regional/Local',
         geographic_granularity: ['regional'],
         supported_geographies: geographies.length > 0 ? geographies : ['Region 1', 'Region 2', 'Region 3', 'Region 4', 'Region 5'],
-        time_range: '2020-2024',
+        time_range: dateRange.min ? `${dateRange.min} to ${dateRange.max}` : 'N/A',
         date_range_actual: dateRange,
         key_metrics: ['viral_level', 'copies_per_ml', 'percent_change'],
         supported_filters: ['geography', 'virus', 'date', 'week'],
@@ -403,7 +443,7 @@ export class DataLoader {
         geographic_level: 'State/National',
         geographic_granularity: ['national', 'state'],
         supported_geographies: geographies.length > 0 ? geographies : ['US', 'CA', 'TX', 'FL', 'NY'],
-        time_range: '2020-2024',
+        time_range: dateRange.min ? `${dateRange.min} to ${dateRange.max}` : 'N/A',
         date_range_actual: dateRange,
         key_metrics: ['relative_search_volume', 'percent_change'],
         supported_filters: ['state', 'geography', 'search_term', 'date', 'week'],
@@ -419,7 +459,7 @@ export class DataLoader {
         geographic_level: 'State',
         geographic_granularity: ['national', 'state'],
         supported_geographies: geographies.length > 0 ? geographies : ['US', 'CA', 'TX', 'FL', 'NY'],
-        time_range: '2020-2024',
+        time_range: dateRange.min ? `${dateRange.min} to ${dateRange.max}` : 'N/A',
         date_range_actual: dateRange,
         key_metrics: ['prevalence_rate', 'patient_count'],
         supported_filters: ['state', 'geography', 'age_group', 'condition', 'year'],
@@ -435,12 +475,60 @@ export class DataLoader {
         geographic_level: 'State',
         geographic_granularity: ['national', 'state'],
         supported_geographies: geographies.length > 0 ? geographies : ['US', 'CA', 'TX', 'FL', 'NY'],
-        time_range: '2020-2024',
+        time_range: dateRange.min ? `${dateRange.min} to ${dateRange.max}` : 'N/A',
         date_range_actual: dateRange,
         key_metrics: ['prevalence_rate', 'patient_count'],
         supported_filters: ['state', 'geography', 'age_group', 'condition', 'year'],
         demographics: ['age_group'],
         data_quality: 'High - Clinical lab values from EHR',
+        sample_record: actualData.length > 0 ? actualData[0] : null
+      },
+      'hospital_capacity': {
+        name: 'HHS COVID-19 Reported Patient Impact and Hospital Capacity',
+        description: 'State-level data on hospital bed capacity, utilization, and staffing shortages, with a focus on the COVID-19 era.',
+        source: 'HHS HealthData.gov',
+        update_frequency: 'Daily',
+        geographic_level: 'State',
+        geographic_granularity: ['state'],
+        supported_geographies: geographies.length > 0 ? geographies : ['US', 'CA', 'TX', 'FL', 'NY', 'PA', 'IL', 'OH', 'GA', 'NC'],
+        time_range: dateRange.min ? `${dateRange.min} to ${dateRange.max}` : 'N/A',
+        date_range_actual: dateRange,
+        key_metrics: ['inpatient_beds', 'inpatient_beds_used', 'bed_utilization', 'icu_utilization', 'deaths_covid', 'critical_staffing_shortage_today_yes'],
+        supported_filters: ['state', 'geography', 'date'],
+        demographics: [],
+        data_quality: 'High - Authoritative federal data, but focused on COVID-19 era.',
+        sample_record: actualData.length > 0 ? actualData[0] : null
+      },
+      'injury_overdose': {
+        name: 'CDC Mapping Injury, Overdose, and Violence',
+        description: 'National-level data on deaths from various intents, including drug overdoses, homicides, and suicides.',
+        source: 'CDC WONDER',
+        update_frequency: 'Monthly/Quarterly',
+        geographic_level: 'National',
+        geographic_granularity: ['national'],
+        supported_geographies: ['USA'],
+        time_range: dateRange.min ? `${dateRange.min} to ${dateRange.max}` : 'N/A',
+        date_range_actual: dateRange,
+        key_metrics: ['value', 'rate', 'intent'],
+        supported_filters: ['geography', 'date', 'intent', 'time_period'],
+        demographics: [],
+        data_quality: 'High - Official vital statistics data.',
+        sample_record: actualData.length > 0 ? actualData[0] : null
+      },
+      'youth_ed_mental_health': {
+        name: 'CDC Mental Health-Related Emergency Department Visits',
+        description: 'National-level data on emergency department visit rates for mental health conditions among youth.',
+        source: 'CDC National Syndromic Surveillance Program (NSSP)',
+        update_frequency: 'Monthly',
+        geographic_level: 'National',
+        geographic_granularity: ['national'],
+        supported_geographies: ['USA'],
+        time_range: dateRange.min ? `${dateRange.min} to ${dateRange.max}` : 'N/A',
+        date_range_actual: dateRange,
+        key_metrics: ['rate_per_100000_visits', 'condition', 'demographics_values'],
+        supported_filters: ['geography', 'date', 'condition', 'demographics_type', 'demographics_values'],
+        demographics: ['demographics_type', 'demographics_values'],
+        data_quality: 'High - Syndromic surveillance data from emergency departments.',
         sample_record: actualData.length > 0 ? actualData[0] : null
       }
     };
