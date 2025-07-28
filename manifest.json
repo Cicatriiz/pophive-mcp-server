@@ -2,7 +2,7 @@
   "dxt_version": "0.1",
   "name": "pophive-mcp-server",
   "display_name": "PopHIVE Public Health Data",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Access near real-time public health data from PopHIVE dashboards including immunizations, respiratory diseases, chronic conditions, hospital capacity, injury/overdose rates, and youth mental health trends.",
   "long_description": "Provides comprehensive access to PopHIVE's public health datasets from Yale School of Public Health. Includes childhood immunization data from CDC NIS and Epic Cosmos, respiratory disease surveillance from multiple CDC systems, wastewater monitoring, Google Health Trends, and chronic disease prevalence data. This version adds new datasets for hospital capacity, injury and overdose deaths, and youth mental health emergency department visits. Perfect for epidemiologists, public health researchers, policy makers, and anyone analyzing population health trends.",
   "author": {
@@ -81,7 +81,6 @@
   "keywords": ["public-health", "epidemiology", "cdc", "immunizations", "respiratory", "chronic-disease", "surveillance", "yale", "epic-cosmos", "hospital-capacity", "overdose", "mental-health"],
   "license": "MIT",
   "compatibility": {
-    "claude_desktop": ">=1.0.0",
     "platforms": ["darwin", "win32", "linux"],
     "runtimes": {
       "node": ">=16.0.0"
