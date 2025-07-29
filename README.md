@@ -1,5 +1,7 @@
 # PopHIVE MCP Server
 
+**Featured on Claude**, try it out here: https://claude.ai/directory/ant.dir.gh.cicatriiz.pophive
+
 A Model Context Protocol (MCP) server that provides access to PopHIVE (Population Health Information Visual Explorer) public health data from Yale School of Public Health. This server exposes comprehensive health surveillance data including immunizations, respiratory diseases, and chronic diseases through standardized MCP tools, resources, and prompts.
 
 **🎯 Production-Ready**: All critical bugs fixed, enhanced error handling, and comprehensive dataset metadata included.
